@@ -1,0 +1,5238 @@
+[
+  {
+    "id": "defense-L4-0001-0",
+    "difficulty": 4,
+    "turn": 12,
+    "hand": [
+      "3m",
+      "4m",
+      "9m",
+      "4p",
+      "5p",
+      "5p",
+      "6p",
+      "6p",
+      "7p",
+      "2s",
+      "3s",
+      "4s",
+      "W",
+      "W"
+    ],
+    "riichiRiver": [
+      "P",
+      "8m",
+      "8m",
+      "6m",
+      "8m",
+      "N",
+      "8m",
+      "7s",
+      "1m",
+      "7s",
+      "P",
+      "3p"
+    ],
+    "riichiTurnIndex": 5,
+    "dora": "5m",
+    "safestDiscard": "9m",
+    "options": [
+      {
+        "tile": "9m",
+        "safety": "relatively_safe",
+        "reason": "筋＋壁"
+      },
+      {
+        "tile": "3m",
+        "safety": "relatively_safe",
+        "reason": "筋"
+      },
+      {
+        "tile": "4m",
+        "safety": "relatively_safe",
+        "reason": "筋"
+      },
+      {
+        "tile": "6p",
+        "safety": "relatively_safe",
+        "reason": "筋"
+      },
+      {
+        "tile": "4s",
+        "safety": "relatively_safe",
+        "reason": "筋"
+      },
+      {
+        "tile": "W",
+        "safety": "dangerous",
+        "reason": "字牌"
+      },
+      {
+        "tile": "2s",
+        "safety": "dangerous",
+        "reason": "無筋危険牌"
+      },
+      {
+        "tile": "7p",
+        "safety": "very_dangerous",
+        "reason": "無筋危険牌"
+      },
+      {
+        "tile": "3s",
+        "safety": "very_dangerous",
+        "reason": "無筋危険牌"
+      },
+      {
+        "tile": "4p",
+        "safety": "very_dangerous",
+        "reason": "無筋危険牌"
+      },
+      {
+        "tile": "5p",
+        "safety": "very_dangerous",
+        "reason": "無筋危険牌"
+      }
+    ],
+    "explanation": "9m が最も安全です（筋＋壁）。筋・壁・ワンチャンスを組み合わせて比較する問題です。 リーチ者の河には P・8m・6m・N・7s・1m・3p が見えており、次点の 3m は 筋 止まりです。危険牌は無筋の中張牌を優先して避けましょう。ドラ表示牌は 5m です。",
+    "category": "mixed"
+  },
+  {
+    "id": "defense-L4-0002-0",
+    "difficulty": 4,
+    "turn": 17,
+    "hand": [
+      "4m",
+      "5m",
+      "6m",
+      "1p",
+      "7p",
+      "8p",
+      "2s",
+      "2s",
+      "3s",
+      "3s",
+      "4s",
+      "4s",
+      "C",
+      "C"
+    ],
+    "riichiRiver": [
+      "2p",
+      "2p",
+      "2p",
+      "F",
+      "9m",
+      "4p",
+      "2m",
+      "1s",
+      "5s",
+      "W",
+      "F",
+      "2p",
+      "7m",
+      "E",
+      "5s",
+      "3p",
+      "9p"
+    ],
+    "riichiTurnIndex": 8,
+    "dora": "6p",
+    "safestDiscard": "1p",
+    "options": [
+      {
+        "tile": "1p",
+        "safety": "relatively_safe",
+        "reason": "筋＋壁"
+      },
+      {
+        "tile": "4m",
+        "safety": "relatively_safe",
+        "reason": "筋"
+      },
+      {
+        "tile": "5m",
+        "safety": "relatively_safe",
+        "reason": "筋"
+      },
+      {
+        "tile": "6m",
+        "safety": "relatively_safe",
+        "reason": "筋"
+      },
+      {
+        "tile": "7p",
+        "safety": "relatively_safe",
+        "reason": "筋"
+      },
+      {
+        "tile": "2s",
+        "safety": "relatively_safe",
+        "reason": "筋"
+      },
+      {
+        "tile": "4s",
+        "safety": "relatively_safe",
+        "reason": "筋"
+      },
+      {
+        "tile": "C",
+        "safety": "dangerous",
+        "reason": "字牌"
+      },
+      {
+        "tile": "8p",
+        "safety": "dangerous",
+        "reason": "無筋危険牌"
+      },
+      {
+        "tile": "3s",
+        "safety": "very_dangerous",
+        "reason": "無筋危険牌"
+      }
+    ],
+    "explanation": "1p が最も安全です（筋＋壁）。筋・壁・ワンチャンスを組み合わせて比較する問題です。 リーチ者の河には 2p・F・9m・4p・2m・1s・5s・W・7m・E・3p・9p が見えており、次点の 4m は 筋 止まりです。危険牌は無筋の中張牌を優先して避けましょう。ドラ表示牌は 6p です。",
+    "category": "mixed"
+  },
+  {
+    "id": "defense-L4-0003-0",
+    "difficulty": 4,
+    "turn": 18,
+    "hand": [
+      "2m",
+      "3m",
+      "8m",
+      "2p",
+      "2p",
+      "3p",
+      "3p",
+      "4p",
+      "4p",
+      "5s",
+      "6s",
+      "7s",
+      "S",
+      "S"
+    ],
+    "riichiRiver": [
+      "F",
+      "3s",
+      "7p",
+      "E",
+      "9s",
+      "7m",
+      "4m",
+      "P",
+      "6p",
+      "7m",
+      "C",
+      "7p",
+      "9m",
+      "3s",
+      "8s",
+      "5m",
+      "7m",
+      "7m"
+    ],
+    "riichiTurnIndex": 13,
+    "dora": "W",
+    "safestDiscard": "8m",
+    "options": [
+      {
+        "tile": "8m",
+        "safety": "relatively_safe",
+        "reason": "筋＋壁"
+      },
+      {
+        "tile": "2m",
+        "safety": "relatively_safe",
+        "reason": "筋"
+      },
+      {
+        "tile": "3p",
+        "safety": "relatively_safe",
+        "reason": "筋"
+      },
+      {
+        "tile": "4p",
+        "safety": "relatively_safe",
+        "reason": "筋"
+      },
+      {
+        "tile": "5s",
+        "safety": "relatively_safe",
+        "reason": "筋"
+      },
+      {
+        "tile": "6s",
+        "safety": "relatively_safe",
+        "reason": "筋"
+      },
+      {
+        "tile": "S",
+        "safety": "dangerous",
+        "reason": "字牌"
+      },
+      {
+        "tile": "2p",
+        "safety": "dangerous",
+        "reason": "無筋危険牌"
+      },
+      {
+        "tile": "3m",
+        "safety": "very_dangerous",
+        "reason": "無筋危険牌"
+      },
+      {
+        "tile": "7s",
+        "safety": "very_dangerous",
+        "reason": "無筋危険牌"
+      }
+    ],
+    "explanation": "8m が最も安全です（筋＋壁）。筋・壁・ワンチャンスを組み合わせて比較する問題です。 リーチ者の河には F・3s・7p・E・9s・7m・4m・P・6p・C・9m・8s・5m が見えており、次点の 2m は 筋 止まりです。危険牌は無筋の中張牌を優先して避けましょう。ドラ表示牌は W です。",
+    "category": "mixed"
+  },
+  {
+    "id": "defense-L4-0004-0",
+    "difficulty": 4,
+    "turn": 13,
+    "hand": [
+      "2m",
+      "7m",
+      "8m",
+      "2p",
+      "3p",
+      "3p",
+      "4p",
+      "4p",
+      "5p",
+      "4s",
+      "5s",
+      "6s",
+      "N",
+      "N"
+    ],
+    "riichiRiver": [
+      "P",
+      "3m",
+      "S",
+      "8p",
+      "3m",
+      "3m",
+      "3m",
+      "W",
+      "6m",
+      "8s",
+      "F",
+      "C",
+      "5m"
+    ],
+    "riichiTurnIndex": 9,
+    "dora": "1s",
+    "safestDiscard": "2m",
+    "options": [
+      {
+        "tile": "2m",
+        "safety": "relatively_safe",
+        "reason": "筋＋壁"
+      },
+      {
+        "tile": "8m",
+        "safety": "relatively_safe",
+        "reason": "筋"
+      },
+      {
+        "tile": "5p",
+        "safety": "relatively_safe",
+        "reason": "筋"
+      },
+      {
+        "tile": "5s",
+        "safety": "relatively_safe",
+        "reason": "筋"
+      },
+      {
+        "tile": "N",
+        "safety": "dangerous",
+        "reason": "字牌"
+      },
+      {
+        "tile": "2p",
+        "safety": "dangerous",
+        "reason": "無筋危険牌"
+      },
+      {
+        "tile": "7m",
+        "safety": "very_dangerous",
+        "reason": "無筋危険牌"
+      },
+      {
+        "tile": "3p",
+        "safety": "very_dangerous",
+        "reason": "無筋危険牌"
+      },
+      {
+        "tile": "4p",
+        "safety": "very_dangerous",
+        "reason": "無筋危険牌"
+      },
+      {
+        "tile": "4s",
+        "safety": "very_dangerous",
+        "reason": "無筋危険牌"
+      },
+      {
+        "tile": "6s",
+        "safety": "very_dangerous",
+        "reason": "無筋危険牌"
+      }
+    ],
+    "explanation": "2m が最も安全です（筋＋壁）。筋・壁・ワンチャンスを組み合わせて比較する問題です。 リーチ者の河には P・3m・S・8p・W・6m・8s・F・C・5m が見えており、次点の 8m は 筋 止まりです。危険牌は無筋の中張牌を優先して避けましょう。ドラ表示牌は 1s です。",
+    "category": "mixed"
+  },
+  {
+    "id": "defense-L4-0005-0",
+    "difficulty": 4,
+    "turn": 14,
+    "hand": [
+      "3m",
+      "4m",
+      "9m",
+      "2p",
+      "3p",
+      "4p",
+      "5p",
+      "6p",
+      "7p",
+      "6s",
+      "7s",
+      "8s",
+      "P",
+      "P"
+    ],
+    "riichiRiver": [
+      "F",
+      "8m",
+      "8m",
+      "7m",
+      "8m",
+      "5s",
+      "6m",
+      "1m",
+      "1s",
+      "C",
+      "4s",
+      "1p",
+      "8m",
+      "5m"
+    ],
+    "riichiTurnIndex": 5,
+    "dora": "W",
+    "safestDiscard": "9m",
+    "options": [
+      {
+        "tile": "9m",
+        "safety": "relatively_safe",
+        "reason": "筋＋壁"
+      },
+      {
+        "tile": "3m",
+        "safety": "relatively_safe",
+        "reason": "筋"
+      },
+      {
+        "tile": "4m",
+        "safety": "relatively_safe",
+        "reason": "筋"
+      },
+      {
+        "tile": "4p",
+        "safety": "relatively_safe",
+        "reason": "筋"
+      },
+      {
+        "tile": "7s",
+        "safety": "relatively_safe",
+        "reason": "筋"
+      },
+      {
+        "tile": "8s",
+        "safety": "relatively_safe",
+        "reason": "筋"
+      },
+      {
+        "tile": "P",
+        "safety": "dangerous",
+        "reason": "字牌"
+      },
+      {
+        "tile": "2p",
+        "safety": "dangerous",
+        "reason": "無筋危険牌"
+      },
+      {
+        "tile": "3p",
+        "safety": "very_dangerous",
+        "reason": "無筋危険牌"
+      },
+      {
+        "tile": "7p",
+        "safety": "very_dangerous",
+        "reason": "無筋危険牌"
+      },
+      {
+        "tile": "5p",
+        "safety": "very_dangerous",
+        "reason": "無筋危険牌"
+      },
+      {
+        "tile": "6p",
+        "safety": "very_dangerous",
+        "reason": "無筋危険牌"
+      },
+      {
+        "tile": "6s",
+        "safety": "very_dangerous",
+        "reason": "無筋危険牌"
+      }
+    ],
+    "explanation": "9m が最も安全です（筋＋壁）。筋・壁・ワンチャンスを組み合わせて比較する問題です。 リーチ者の河には F・8m・7m・5s・6m・1m・1s・C・4s・1p・5m が見えており、次点の 3m は 筋 止まりです。危険牌は無筋の中張牌を優先して避けましょう。ドラ表示牌は W です。",
+    "category": "mixed"
+  },
+  {
+    "id": "defense-L4-0006-0",
+    "difficulty": 4,
+    "turn": 16,
+    "hand": [
+      "4m",
+      "5m",
+      "6m",
+      "6m",
+      "7m",
+      "8m",
+      "4p",
+      "5p",
+      "6p",
+      "3s",
+      "4s",
+      "9s",
+      "C",
+      "C"
+    ],
+    "riichiRiver": [
+      "3m",
+      "1s",
+      "2p",
+      "E",
+      "5s",
+      "6s",
+      "8s",
+      "F",
+      "8s",
+      "W",
+      "8s",
+      "9p",
+      "8s",
+      "S",
+      "1p",
+      "W"
+    ],
+    "riichiTurnIndex": 11,
+    "dora": "2p",
+    "safestDiscard": "9s",
+    "options": [
+      {
+        "tile": "9s",
+        "safety": "relatively_safe",
+        "reason": "筋＋壁"
+      },
+      {
+        "tile": "6m",
+        "safety": "relatively_safe",
+        "reason": "筋"
+      },
+      {
+        "tile": "4p",
+        "safety": "relatively_safe",
+        "reason": "筋"
+      },
+      {
+        "tile": "5p",
+        "safety": "relatively_safe",
+        "reason": "筋"
+      },
+      {
+        "tile": "6p",
+        "safety": "relatively_safe",
+        "reason": "筋"
+      },
+      {
+        "tile": "3s",
+        "safety": "relatively_safe",
+        "reason": "筋"
+      },
+      {
+        "tile": "4s",
+        "safety": "relatively_safe",
+        "reason": "筋"
+      },
+      {
+        "tile": "C",
+        "safety": "dangerous",
+        "reason": "字牌"
+      },
+      {
+        "tile": "8m",
+        "safety": "dangerous",
+        "reason": "無筋危険牌"
+      },
+      {
+        "tile": "7m",
+        "safety": "very_dangerous",
+        "reason": "無筋危険牌"
+      },
+      {
+        "tile": "4m",
+        "safety": "very_dangerous",
+        "reason": "無筋危険牌"
+      },
+      {
+        "tile": "5m",
+        "safety": "very_dangerous",
+        "reason": "無筋危険牌"
+      }
+    ],
+    "explanation": "9s が最も安全です（筋＋壁）。筋・壁・ワンチャンスを組み合わせて比較する問題です。 リーチ者の河には 3m・1s・2p・E・5s・6s・8s・F・W・9p・S・1p が見えており、次点の 6m は 筋 止まりです。危険牌は無筋の中張牌を優先して避けましょう。ドラ表示牌は 2p です。",
+    "category": "mixed"
+  },
+  {
+    "id": "defense-L4-0007-0",
+    "difficulty": 4,
+    "turn": 14,
+    "hand": [
+      "2m",
+      "3m",
+      "4m",
+      "5m",
+      "6m",
+      "7m",
+      "3p",
+      "4p",
+      "5p",
+      "2s",
+      "7s",
+      "8s",
+      "N",
+      "N"
+    ],
+    "riichiRiver": [
+      "F",
+      "3s",
+      "3s",
+      "9p",
+      "8p",
+      "S",
+      "5s",
+      "6p",
+      "9m",
+      "1m",
+      "3s",
+      "3s",
+      "1s",
+      "E"
+    ],
+    "riichiTurnIndex": 10,
+    "dora": "6p",
+    "safestDiscard": "2s",
+    "options": [
+      {
+        "tile": "2s",
+        "safety": "relatively_safe",
+        "reason": "筋＋壁"
+      },
+      {
+        "tile": "4m",
+        "safety": "relatively_safe",
+        "reason": "筋"
+      },
+      {
+        "tile": "6m",
+        "safety": "relatively_safe",
+        "reason": "筋"
+      },
+      {
+        "tile": "3p",
+        "safety": "relatively_safe",
+        "reason": "筋"
+      },
+      {
+        "tile": "5p",
+        "safety": "relatively_safe",
+        "reason": "筋"
+      },
+      {
+        "tile": "8s",
+        "safety": "relatively_safe",
+        "reason": "筋"
+      },
+      {
+        "tile": "N",
+        "safety": "dangerous",
+        "reason": "字牌"
+      },
+      {
+        "tile": "2m",
+        "safety": "dangerous",
+        "reason": "無筋危険牌"
+      },
+      {
+        "tile": "3m",
+        "safety": "very_dangerous",
+        "reason": "無筋危険牌"
+      },
+      {
+        "tile": "7m",
+        "safety": "very_dangerous",
+        "reason": "無筋危険牌"
+      },
+      {
+        "tile": "7s",
+        "safety": "very_dangerous",
+        "reason": "無筋危険牌"
+      },
+      {
+        "tile": "5m",
+        "safety": "very_dangerous",
+        "reason": "無筋危険牌"
+      },
+      {
+        "tile": "4p",
+        "safety": "very_dangerous",
+        "reason": "無筋危険牌"
+      }
+    ],
+    "explanation": "2s が最も安全です（筋＋壁）。筋・壁・ワンチャンスを組み合わせて比較する問題です。 リーチ者の河には F・3s・9p・8p・S・5s・6p・9m・1m・1s・E が見えており、次点の 4m は 筋 止まりです。危険牌は無筋の中張牌を優先して避けましょう。ドラ表示牌は 6p です。",
+    "category": "mixed"
+  },
+  {
+    "id": "defense-L4-0008-0",
+    "difficulty": 4,
+    "turn": 14,
+    "hand": [
+      "2m",
+      "3m",
+      "4m",
+      "3p",
+      "4p",
+      "9p",
+      "3s",
+      "3s",
+      "4s",
+      "4s",
+      "5s",
+      "5s",
+      "P",
+      "P"
+    ],
+    "riichiRiver": [
+      "7s",
+      "8p",
+      "2s",
+      "7s",
+      "7s",
+      "W",
+      "8p",
+      "8p",
+      "7p",
+      "6m",
+      "8p",
+      "9m",
+      "6p",
+      "1m"
+    ],
+    "riichiTurnIndex": 5,
+    "dora": "C",
+    "safestDiscard": "9p",
+    "options": [
+      {
+        "tile": "9p",
+        "safety": "relatively_safe",
+        "reason": "筋＋壁"
+      },
+      {
+        "tile": "3m",
+        "safety": "relatively_safe",
+        "reason": "筋"
+      },
+      {
+        "tile": "4m",
+        "safety": "relatively_safe",
+        "reason": "筋"
+      },
+      {
+        "tile": "3p",
+        "safety": "relatively_safe",
+        "reason": "筋"
+      },
+      {
+        "tile": "4p",
+        "safety": "relatively_safe",
+        "reason": "筋"
+      },
+      {
+        "tile": "4s",
+        "safety": "relatively_safe",
+        "reason": "筋"
+      },
+      {
+        "tile": "5s",
+        "safety": "relatively_safe",
+        "reason": "筋"
+      },
+      {
+        "tile": "P",
+        "safety": "dangerous",
+        "reason": "字牌"
+      },
+      {
+        "tile": "2m",
+        "safety": "dangerous",
+        "reason": "無筋危険牌"
+      },
+      {
+        "tile": "3s",
+        "safety": "very_dangerous",
+        "reason": "無筋危険牌"
+      }
+    ],
+    "explanation": "9p が最も安全です（筋＋壁）。筋・壁・ワンチャンスを組み合わせて比較する問題です。 リーチ者の河には 7s・8p・2s・W・7p・6m・9m・6p・1m が見えており、次点の 3m は 筋 止まりです。危険牌は無筋の中張牌を優先して避けましょう。ドラ表示牌は C です。",
+    "category": "mixed"
+  },
+  {
+    "id": "defense-L4-0009-0",
+    "difficulty": 4,
+    "turn": 14,
+    "hand": [
+      "4m",
+      "5m",
+      "6m",
+      "4p",
+      "5p",
+      "5p",
+      "6p",
+      "6p",
+      "7p",
+      "3s",
+      "4s",
+      "9s",
+      "C",
+      "C"
+    ],
+    "riichiRiver": [
+      "3m",
+      "8s",
+      "8s",
+      "5s",
+      "3p",
+      "8p",
+      "6s",
+      "3m",
+      "S",
+      "7m",
+      "1m",
+      "F",
+      "8s",
+      "8s"
+    ],
+    "riichiTurnIndex": 9,
+    "dora": "7s",
+    "safestDiscard": "9s",
+    "options": [
+      {
+        "tile": "9s",
+        "safety": "relatively_safe",
+        "reason": "筋＋壁"
+      },
+      {
+        "tile": "4m",
+        "safety": "relatively_safe",
+        "reason": "筋"
+      },
+      {
+        "tile": "6m",
+        "safety": "relatively_safe",
+        "reason": "筋"
+      },
+      {
+        "tile": "5p",
+        "safety": "relatively_safe",
+        "reason": "筋"
+      },
+      {
+        "tile": "6p",
+        "safety": "relatively_safe",
+        "reason": "筋"
+      },
+      {
+        "tile": "3s",
+        "safety": "relatively_safe",
+        "reason": "筋"
+      },
+      {
+        "tile": "C",
+        "safety": "dangerous",
+        "reason": "字牌"
+      },
+      {
+        "tile": "7p",
+        "safety": "very_dangerous",
+        "reason": "無筋危険牌"
+      },
+      {
+        "tile": "5m",
+        "safety": "very_dangerous",
+        "reason": "無筋危険牌"
+      },
+      {
+        "tile": "4p",
+        "safety": "very_dangerous",
+        "reason": "無筋危険牌"
+      },
+      {
+        "tile": "4s",
+        "safety": "very_dangerous",
+        "reason": "無筋危険牌"
+      }
+    ],
+    "explanation": "9s が最も安全です（筋＋壁）。筋・壁・ワンチャンスを組み合わせて比較する問題です。 リーチ者の河には 3m・8s・5s・3p・8p・6s・S・7m・1m・F が見えており、次点の 4m は 筋 止まりです。危険牌は無筋の中張牌を優先して避けましょう。ドラ表示牌は 7s です。",
+    "category": "mixed"
+  },
+  {
+    "id": "defense-L4-0010-0",
+    "difficulty": 4,
+    "turn": 13,
+    "hand": [
+      "6m",
+      "7m",
+      "8m",
+      "3p",
+      "4p",
+      "5p",
+      "6p",
+      "7p",
+      "8p",
+      "3s",
+      "4s",
+      "9s",
+      "P",
+      "P"
+    ],
+    "riichiRiver": [
+      "6s",
+      "8s",
+      "9m",
+      "3m",
+      "8s",
+      "7s",
+      "5s",
+      "3m",
+      "1s",
+      "1s",
+      "8s",
+      "8s",
+      "1s"
+    ],
+    "riichiTurnIndex": 10,
+    "dora": "1s",
+    "safestDiscard": "9s",
+    "options": [
+      {
+        "tile": "9s",
+        "safety": "relatively_safe",
+        "reason": "筋＋壁"
+      },
+      {
+        "tile": "6m",
+        "safety": "relatively_safe",
+        "reason": "筋"
+      },
+      {
+        "tile": "3s",
+        "safety": "relatively_safe",
+        "reason": "筋"
+      },
+      {
+        "tile": "4s",
+        "safety": "relatively_safe",
+        "reason": "筋"
+      },
+      {
+        "tile": "P",
+        "safety": "dangerous",
+        "reason": "字牌"
+      },
+      {
+        "tile": "8m",
+        "safety": "dangerous",
+        "reason": "無筋危険牌"
+      },
+      {
+        "tile": "8p",
+        "safety": "dangerous",
+        "reason": "無筋危険牌"
+      },
+      {
+        "tile": "7m",
+        "safety": "very_dangerous",
+        "reason": "無筋危険牌"
+      },
+      {
+        "tile": "3p",
+        "safety": "very_dangerous",
+        "reason": "無筋危険牌"
+      },
+      {
+        "tile": "7p",
+        "safety": "very_dangerous",
+        "reason": "無筋危険牌"
+      },
+      {
+        "tile": "4p",
+        "safety": "very_dangerous",
+        "reason": "無筋危険牌"
+      },
+      {
+        "tile": "5p",
+        "safety": "very_dangerous",
+        "reason": "無筋危険牌"
+      },
+      {
+        "tile": "6p",
+        "safety": "very_dangerous",
+        "reason": "無筋危険牌"
+      }
+    ],
+    "explanation": "9s が最も安全です（筋＋壁）。筋・壁・ワンチャンスを組み合わせて比較する問題です。 リーチ者の河には 6s・8s・9m・3m・7s・5s・1s が見えており、次点の 6m は 筋 止まりです。危険牌は無筋の中張牌を優先して避けましょう。ドラ表示牌は 1s です。",
+    "category": "mixed"
+  },
+  {
+    "id": "defense-L4-0011-0",
+    "difficulty": 4,
+    "turn": 14,
+    "hand": [
+      "1m",
+      "7m",
+      "8m",
+      "3p",
+      "4p",
+      "5p",
+      "5p",
+      "6p",
+      "7p",
+      "7s",
+      "8s",
+      "9s",
+      "N",
+      "N"
+    ],
+    "riichiRiver": [
+      "6m",
+      "9m",
+      "2p",
+      "P",
+      "4s",
+      "F",
+      "2m",
+      "3s",
+      "4m",
+      "2m",
+      "6s",
+      "3s",
+      "2m",
+      "2m"
+    ],
+    "riichiTurnIndex": 5,
+    "dora": "F",
+    "safestDiscard": "1m",
+    "options": [
+      {
+        "tile": "1m",
+        "safety": "relatively_safe",
+        "reason": "筋＋壁"
+      },
+      {
+        "tile": "9s",
+        "safety": "relatively_safe",
+        "reason": "筋"
+      },
+      {
+        "tile": "7m",
+        "safety": "relatively_safe",
+        "reason": "筋"
+      },
+      {
+        "tile": "5p",
+        "safety": "relatively_safe",
+        "reason": "筋"
+      },
+      {
+        "tile": "7s",
+        "safety": "relatively_safe",
+        "reason": "筋"
+      },
+      {
+        "tile": "N",
+        "safety": "dangerous",
+        "reason": "字牌"
+      },
+      {
+        "tile": "8m",
+        "safety": "dangerous",
+        "reason": "無筋危険牌"
+      },
+      {
+        "tile": "8s",
+        "safety": "dangerous",
+        "reason": "無筋危険牌"
+      },
+      {
+        "tile": "3p",
+        "safety": "very_dangerous",
+        "reason": "無筋危険牌"
+      },
+      {
+        "tile": "7p",
+        "safety": "very_dangerous",
+        "reason": "無筋危険牌"
+      },
+      {
+        "tile": "4p",
+        "safety": "very_dangerous",
+        "reason": "無筋危険牌"
+      },
+      {
+        "tile": "6p",
+        "safety": "very_dangerous",
+        "reason": "無筋危険牌"
+      }
+    ],
+    "explanation": "1m が最も安全です（筋＋壁）。筋・壁・ワンチャンスを組み合わせて比較する問題です。 リーチ者の河には 6m・9m・2p・P・4s・F・2m・3s・4m・6s が見えており、次点の 9s は 筋 止まりです。危険牌は無筋の中張牌を優先して避けましょう。ドラ表示牌は F です。",
+    "category": "mixed"
+  },
+  {
+    "id": "defense-L4-0012-0",
+    "difficulty": 4,
+    "turn": 13,
+    "hand": [
+      "4m",
+      "5m",
+      "6m",
+      "1p",
+      "2p",
+      "3p",
+      "5p",
+      "6p",
+      "7p",
+      "3s",
+      "4s",
+      "9s",
+      "C",
+      "C"
+    ],
+    "riichiRiver": [
+      "6s",
+      "3m",
+      "8s",
+      "8s",
+      "7s",
+      "4p",
+      "2s",
+      "N",
+      "S",
+      "8s",
+      "8s",
+      "1m",
+      "W"
+    ],
+    "riichiTurnIndex": 9,
+    "dora": "S",
+    "safestDiscard": "9s",
+    "options": [
+      {
+        "tile": "9s",
+        "safety": "relatively_safe",
+        "reason": "筋＋壁"
+      },
+      {
+        "tile": "1p",
+        "safety": "relatively_safe",
+        "reason": "筋"
+      },
+      {
+        "tile": "4m",
+        "safety": "relatively_safe",
+        "reason": "筋"
+      },
+      {
+        "tile": "6m",
+        "safety": "relatively_safe",
+        "reason": "筋"
+      },
+      {
+        "tile": "7p",
+        "safety": "relatively_safe",
+        "reason": "筋"
+      },
+      {
+        "tile": "3s",
+        "safety": "relatively_safe",
+        "reason": "筋"
+      },
+      {
+        "tile": "4s",
+        "safety": "relatively_safe",
+        "reason": "筋"
+      },
+      {
+        "tile": "C",
+        "safety": "dangerous",
+        "reason": "字牌"
+      },
+      {
+        "tile": "2p",
+        "safety": "dangerous",
+        "reason": "無筋危険牌"
+      },
+      {
+        "tile": "3p",
+        "safety": "very_dangerous",
+        "reason": "無筋危険牌"
+      },
+      {
+        "tile": "5m",
+        "safety": "very_dangerous",
+        "reason": "無筋危険牌"
+      },
+      {
+        "tile": "5p",
+        "safety": "very_dangerous",
+        "reason": "無筋危険牌"
+      },
+      {
+        "tile": "6p",
+        "safety": "very_dangerous",
+        "reason": "無筋危険牌"
+      }
+    ],
+    "explanation": "9s が最も安全です（筋＋壁）。筋・壁・ワンチャンスを組み合わせて比較する問題です。 リーチ者の河には 6s・3m・8s・7s・4p・2s・N・S・1m・W が見えており、次点の 1p は 筋 止まりです。危険牌は無筋の中張牌を優先して避けましょう。ドラ表示牌は S です。",
+    "category": "mixed"
+  },
+  {
+    "id": "defense-L4-0013-0",
+    "difficulty": 4,
+    "turn": 18,
+    "hand": [
+      "3m",
+      "4m",
+      "5m",
+      "2p",
+      "7p",
+      "8p",
+      "4s",
+      "5s",
+      "6s",
+      "6s",
+      "7s",
+      "8s",
+      "E",
+      "E"
+    ],
+    "riichiRiver": [
+      "3p",
+      "7m",
+      "S",
+      "F",
+      "P",
+      "3p",
+      "5p",
+      "7m",
+      "8m",
+      "8m",
+      "3p",
+      "3p",
+      "N",
+      "9m",
+      "2m",
+      "2m",
+      "N",
+      "9p"
+    ],
+    "riichiTurnIndex": 11,
+    "dora": "9p",
+    "safestDiscard": "2p",
+    "options": [
+      {
+        "tile": "2p",
+        "safety": "relatively_safe",
+        "reason": "筋＋壁"
+      },
+      {
+        "tile": "4m",
+        "safety": "relatively_safe",
+        "reason": "筋"
+      },
+      {
+        "tile": "5m",
+        "safety": "relatively_safe",
+        "reason": "筋"
+      },
+      {
+        "tile": "8p",
+        "safety": "relatively_safe",
+        "reason": "筋"
+      },
+      {
+        "tile": "E",
+        "safety": "dangerous",
+        "reason": "字牌"
+      },
+      {
+        "tile": "8s",
+        "safety": "dangerous",
+        "reason": "無筋危険牌"
+      },
+      {
+        "tile": "3m",
+        "safety": "very_dangerous",
+        "reason": "無筋危険牌"
+      },
+      {
+        "tile": "7p",
+        "safety": "very_dangerous",
+        "reason": "無筋危険牌"
+      },
+      {
+        "tile": "7s",
+        "safety": "very_dangerous",
+        "reason": "無筋危険牌"
+      },
+      {
+        "tile": "4s",
+        "safety": "very_dangerous",
+        "reason": "無筋危険牌"
+      },
+      {
+        "tile": "5s",
+        "safety": "very_dangerous",
+        "reason": "無筋危険牌"
+      },
+      {
+        "tile": "6s",
+        "safety": "very_dangerous",
+        "reason": "無筋危険牌"
+      }
+    ],
+    "explanation": "2p が最も安全です（筋＋壁）。筋・壁・ワンチャンスを組み合わせて比較する問題です。 リーチ者の河には 3p・7m・S・F・P・5p・8m・N・9m・2m・9p が見えており、次点の 4m は 筋 止まりです。危険牌は無筋の中張牌を優先して避けましょう。ドラ表示牌は 9p です。",
+    "category": "mixed"
+  },
+  {
+    "id": "defense-L4-0014-0",
+    "difficulty": 4,
+    "turn": 14,
+    "hand": [
+      "4m",
+      "5m",
+      "6m",
+      "2p",
+      "3p",
+      "8p",
+      "3s",
+      "4s",
+      "5s",
+      "6s",
+      "7s",
+      "8s",
+      "W",
+      "W"
+    ],
+    "riichiRiver": [
+      "2m",
+      "6p",
+      "1s",
+      "N",
+      "N",
+      "2s",
+      "7p",
+      "5p",
+      "7m",
+      "2m",
+      "7p",
+      "7p",
+      "7p",
+      "E"
+    ],
+    "riichiTurnIndex": 5,
+    "dora": "2s",
+    "safestDiscard": "8p",
+    "options": [
+      {
+        "tile": "8p",
+        "safety": "relatively_safe",
+        "reason": "筋＋壁"
+      },
+      {
+        "tile": "4m",
+        "safety": "relatively_safe",
+        "reason": "筋"
+      },
+      {
+        "tile": "5m",
+        "safety": "relatively_safe",
+        "reason": "筋"
+      },
+      {
+        "tile": "2p",
+        "safety": "relatively_safe",
+        "reason": "筋"
+      },
+      {
+        "tile": "3p",
+        "safety": "relatively_safe",
+        "reason": "筋"
+      },
+      {
+        "tile": "4s",
+        "safety": "relatively_safe",
+        "reason": "筋"
+      },
+      {
+        "tile": "5s",
+        "safety": "relatively_safe",
+        "reason": "筋"
+      },
+      {
+        "tile": "W",
+        "safety": "dangerous",
+        "reason": "字牌"
+      },
+      {
+        "tile": "8s",
+        "safety": "dangerous",
+        "reason": "無筋危険牌"
+      },
+      {
+        "tile": "3s",
+        "safety": "very_dangerous",
+        "reason": "無筋危険牌"
+      },
+      {
+        "tile": "7s",
+        "safety": "very_dangerous",
+        "reason": "無筋危険牌"
+      },
+      {
+        "tile": "6m",
+        "safety": "very_dangerous",
+        "reason": "無筋危険牌"
+      },
+      {
+        "tile": "6s",
+        "safety": "very_dangerous",
+        "reason": "無筋危険牌"
+      }
+    ],
+    "explanation": "8p が最も安全です（筋＋壁）。筋・壁・ワンチャンスを組み合わせて比較する問題です。 リーチ者の河には 2m・6p・1s・N・2s・7p・5p・7m・E が見えており、次点の 4m は 筋 止まりです。危険牌は無筋の中張牌を優先して避けましょう。ドラ表示牌は 2s です。",
+    "category": "mixed"
+  },
+  {
+    "id": "defense-L4-0015-0",
+    "difficulty": 4,
+    "turn": 17,
+    "hand": [
+      "2m",
+      "7m",
+      "8m",
+      "1p",
+      "2p",
+      "3p",
+      "2s",
+      "3s",
+      "4s",
+      "5s",
+      "6s",
+      "7s",
+      "E",
+      "E"
+    ],
+    "riichiRiver": [
+      "9p",
+      "5m",
+      "1m",
+      "P",
+      "1m",
+      "6m",
+      "8p",
+      "3m",
+      "8s",
+      "C",
+      "5p",
+      "1s",
+      "C",
+      "3m",
+      "3m",
+      "3m",
+      "W"
+    ],
+    "riichiTurnIndex": 12,
+    "dora": "9m",
+    "safestDiscard": "2m",
+    "options": [
+      {
+        "tile": "2m",
+        "safety": "relatively_safe",
+        "reason": "筋＋壁"
+      },
+      {
+        "tile": "8m",
+        "safety": "relatively_safe",
+        "reason": "筋"
+      },
+      {
+        "tile": "2p",
+        "safety": "relatively_safe",
+        "reason": "筋"
+      },
+      {
+        "tile": "4s",
+        "safety": "relatively_safe",
+        "reason": "筋"
+      },
+      {
+        "tile": "5s",
+        "safety": "relatively_safe",
+        "reason": "筋"
+      },
+      {
+        "tile": "E",
+        "safety": "dangerous",
+        "reason": "字牌"
+      },
+      {
+        "tile": "1p",
+        "safety": "dangerous",
+        "reason": "無筋危険牌"
+      },
+      {
+        "tile": "2s",
+        "safety": "dangerous",
+        "reason": "無筋危険牌"
+      },
+      {
+        "tile": "7m",
+        "safety": "very_dangerous",
+        "reason": "無筋危険牌"
+      },
+      {
+        "tile": "3p",
+        "safety": "very_dangerous",
+        "reason": "無筋危険牌"
+      },
+      {
+        "tile": "3s",
+        "safety": "very_dangerous",
+        "reason": "無筋危険牌"
+      },
+      {
+        "tile": "7s",
+        "safety": "very_dangerous",
+        "reason": "無筋危険牌"
+      },
+      {
+        "tile": "6s",
+        "safety": "very_dangerous",
+        "reason": "無筋危険牌"
+      }
+    ],
+    "explanation": "2m が最も安全です（筋＋壁）。筋・壁・ワンチャンスを組み合わせて比較する問題です。 リーチ者の河には 9p・5m・1m・P・6m・8p・3m・8s・C・5p・1s・W が見えており、次点の 8m は 筋 止まりです。危険牌は無筋の中張牌を優先して避けましょう。ドラ表示牌は 9m です。",
+    "category": "mixed"
+  },
+  {
+    "id": "defense-L4-0016-0",
+    "difficulty": 4,
+    "turn": 12,
+    "hand": [
+      "1m",
+      "2m",
+      "2m",
+      "3m",
+      "3m",
+      "4m",
+      "7p",
+      "8p",
+      "9p",
+      "3s",
+      "4s",
+      "9s",
+      "N",
+      "N"
+    ],
+    "riichiRiver": [
+      "2s",
+      "3p",
+      "8s",
+      "2s",
+      "8s",
+      "6s",
+      "F",
+      "8s",
+      "1s",
+      "8s",
+      "3p",
+      "6p"
+    ],
+    "riichiTurnIndex": 6,
+    "dora": "1p",
+    "safestDiscard": "9s",
+    "options": [
+      {
+        "tile": "9s",
+        "safety": "relatively_safe",
+        "reason": "筋＋壁"
+      },
+      {
+        "tile": "9p",
+        "safety": "relatively_safe",
+        "reason": "筋"
+      },
+      {
+        "tile": "3s",
+        "safety": "relatively_safe",
+        "reason": "筋"
+      },
+      {
+        "tile": "4s",
+        "safety": "relatively_safe",
+        "reason": "筋"
+      },
+      {
+        "tile": "N",
+        "safety": "dangerous",
+        "reason": "字牌"
+      },
+      {
+        "tile": "1m",
+        "safety": "dangerous",
+        "reason": "無筋危険牌"
+      },
+      {
+        "tile": "2m",
+        "safety": "dangerous",
+        "reason": "無筋危険牌"
+      },
+      {
+        "tile": "8p",
+        "safety": "dangerous",
+        "reason": "無筋危険牌"
+      },
+      {
+        "tile": "3m",
+        "safety": "very_dangerous",
+        "reason": "無筋危険牌"
+      },
+      {
+        "tile": "7p",
+        "safety": "very_dangerous",
+        "reason": "無筋危険牌"
+      },
+      {
+        "tile": "4m",
+        "safety": "very_dangerous",
+        "reason": "無筋危険牌"
+      }
+    ],
+    "explanation": "9s が最も安全です（筋＋壁）。筋・壁・ワンチャンスを組み合わせて比較する問題です。 リーチ者の河には 2s・3p・8s・6s・F・1s・6p が見えており、次点の 9p は 筋 止まりです。危険牌は無筋の中張牌を優先して避けましょう。ドラ表示牌は 1p です。",
+    "category": "mixed"
+  },
+  {
+    "id": "defense-L4-0017-0",
+    "difficulty": 4,
+    "turn": 12,
+    "hand": [
+      "7m",
+      "8m",
+      "9m",
+      "3p",
+      "4p",
+      "9p",
+      "3s",
+      "4s",
+      "5s",
+      "6s",
+      "7s",
+      "8s",
+      "E",
+      "E"
+    ],
+    "riichiRiver": [
+      "F",
+      "8p",
+      "8p",
+      "2s",
+      "6p",
+      "S",
+      "1p",
+      "7p",
+      "7p",
+      "8p",
+      "8p",
+      "1s"
+    ],
+    "riichiTurnIndex": 7,
+    "dora": "3m",
+    "safestDiscard": "9p",
+    "options": [
+      {
+        "tile": "9p",
+        "safety": "relatively_safe",
+        "reason": "筋＋壁"
+      },
+      {
+        "tile": "3p",
+        "safety": "relatively_safe",
+        "reason": "筋"
+      },
+      {
+        "tile": "4p",
+        "safety": "relatively_safe",
+        "reason": "筋"
+      },
+      {
+        "tile": "4s",
+        "safety": "relatively_safe",
+        "reason": "筋"
+      },
+      {
+        "tile": "5s",
+        "safety": "relatively_safe",
+        "reason": "筋"
+      },
+      {
+        "tile": "E",
+        "safety": "dangerous",
+        "reason": "字牌"
+      },
+      {
+        "tile": "9m",
+        "safety": "dangerous",
+        "reason": "無筋危険牌"
+      },
+      {
+        "tile": "8m",
+        "safety": "dangerous",
+        "reason": "無筋危険牌"
+      },
+      {
+        "tile": "8s",
+        "safety": "dangerous",
+        "reason": "無筋危険牌"
+      },
+      {
+        "tile": "7m",
+        "safety": "very_dangerous",
+        "reason": "無筋危険牌"
+      },
+      {
+        "tile": "3s",
+        "safety": "very_dangerous",
+        "reason": "無筋危険牌"
+      },
+      {
+        "tile": "7s",
+        "safety": "very_dangerous",
+        "reason": "無筋危険牌"
+      },
+      {
+        "tile": "6s",
+        "safety": "very_dangerous",
+        "reason": "無筋危険牌"
+      }
+    ],
+    "explanation": "9p が最も安全です（筋＋壁）。筋・壁・ワンチャンスを組み合わせて比較する問題です。 リーチ者の河には F・8p・2s・6p・S・1p・7p・1s が見えており、次点の 3p は 筋 止まりです。危険牌は無筋の中張牌を優先して避けましょう。ドラ表示牌は 3m です。",
+    "category": "mixed"
+  },
+  {
+    "id": "defense-L4-0018-0",
+    "difficulty": 4,
+    "turn": 14,
+    "hand": [
+      "2m",
+      "7m",
+      "8m",
+      "2p",
+      "3p",
+      "4p",
+      "6p",
+      "7p",
+      "8p",
+      "7s",
+      "8s",
+      "9s",
+      "P",
+      "P"
+    ],
+    "riichiRiver": [
+      "9m",
+      "3m",
+      "2s",
+      "3m",
+      "C",
+      "4m",
+      "3m",
+      "S",
+      "C",
+      "E",
+      "5m",
+      "3m",
+      "1s",
+      "9m"
+    ],
+    "riichiTurnIndex": 4,
+    "dora": "E",
+    "safestDiscard": "2m",
+    "options": [
+      {
+        "tile": "2m",
+        "safety": "relatively_safe",
+        "reason": "筋＋壁"
+      },
+      {
+        "tile": "7m",
+        "safety": "relatively_safe",
+        "reason": "筋"
+      },
+      {
+        "tile": "8m",
+        "safety": "relatively_safe",
+        "reason": "筋"
+      },
+      {
+        "tile": "P",
+        "safety": "dangerous",
+        "reason": "字牌"
+      },
+      {
+        "tile": "9s",
+        "safety": "dangerous",
+        "reason": "無筋危険牌"
+      },
+      {
+        "tile": "2p",
+        "safety": "dangerous",
+        "reason": "無筋危険牌"
+      },
+      {
+        "tile": "8p",
+        "safety": "dangerous",
+        "reason": "無筋危険牌"
+      },
+      {
+        "tile": "8s",
+        "safety": "dangerous",
+        "reason": "無筋危険牌"
+      },
+      {
+        "tile": "3p",
+        "safety": "very_dangerous",
+        "reason": "無筋危険牌"
+      },
+      {
+        "tile": "7p",
+        "safety": "very_dangerous",
+        "reason": "無筋危険牌"
+      },
+      {
+        "tile": "7s",
+        "safety": "very_dangerous",
+        "reason": "無筋危険牌"
+      },
+      {
+        "tile": "4p",
+        "safety": "very_dangerous",
+        "reason": "無筋危険牌"
+      },
+      {
+        "tile": "6p",
+        "safety": "very_dangerous",
+        "reason": "無筋危険牌"
+      }
+    ],
+    "explanation": "2m が最も安全です（筋＋壁）。筋・壁・ワンチャンスを組み合わせて比較する問題です。 リーチ者の河には 9m・3m・2s・C・4m・S・E・5m・1s が見えており、次点の 7m は 筋 止まりです。危険牌は無筋の中張牌を優先して避けましょう。ドラ表示牌は E です。",
+    "category": "mixed"
+  },
+  {
+    "id": "defense-L4-0019-0",
+    "difficulty": 4,
+    "turn": 18,
+    "hand": [
+      "2m",
+      "3m",
+      "4m",
+      "4m",
+      "5m",
+      "6m",
+      "1p",
+      "2p",
+      "3p",
+      "1s",
+      "7s",
+      "8s",
+      "W",
+      "W"
+    ],
+    "riichiRiver": [
+      "S",
+      "2s",
+      "4s",
+      "3s",
+      "6s",
+      "F",
+      "2s",
+      "P",
+      "E",
+      "7p",
+      "3s",
+      "8m",
+      "N",
+      "1m",
+      "2s",
+      "6p",
+      "2s",
+      "6p"
+    ],
+    "riichiTurnIndex": 6,
+    "dora": "1m",
+    "safestDiscard": "1s",
+    "options": [
+      {
+        "tile": "1s",
+        "safety": "relatively_safe",
+        "reason": "筋＋壁"
+      },
+      {
+        "tile": "4m",
+        "safety": "relatively_safe",
+        "reason": "筋"
+      },
+      {
+        "tile": "5m",
+        "safety": "relatively_safe",
+        "reason": "筋"
+      },
+      {
+        "tile": "3p",
+        "safety": "relatively_safe",
+        "reason": "筋"
+      },
+      {
+        "tile": "7s",
+        "safety": "relatively_safe",
+        "reason": "筋"
+      },
+      {
+        "tile": "W",
+        "safety": "dangerous",
+        "reason": "字牌"
+      },
+      {
+        "tile": "1p",
+        "safety": "dangerous",
+        "reason": "無筋危険牌"
+      },
+      {
+        "tile": "2m",
+        "safety": "dangerous",
+        "reason": "無筋危険牌"
+      },
+      {
+        "tile": "2p",
+        "safety": "dangerous",
+        "reason": "無筋危険牌"
+      },
+      {
+        "tile": "8s",
+        "safety": "dangerous",
+        "reason": "無筋危険牌"
+      },
+      {
+        "tile": "3m",
+        "safety": "very_dangerous",
+        "reason": "無筋危険牌"
+      },
+      {
+        "tile": "6m",
+        "safety": "very_dangerous",
+        "reason": "無筋危険牌"
+      }
+    ],
+    "explanation": "1s が最も安全です（筋＋壁）。筋・壁・ワンチャンスを組み合わせて比較する問題です。 リーチ者の河には S・2s・4s・3s・6s・F・P・E・7p・8m・N・1m・6p が見えており、次点の 4m は 筋 止まりです。危険牌は無筋の中張牌を優先して避けましょう。ドラ表示牌は 1m です。",
+    "category": "mixed"
+  },
+  {
+    "id": "defense-L4-0020-0",
+    "difficulty": 4,
+    "turn": 16,
+    "hand": [
+      "5m",
+      "6m",
+      "7m",
+      "1p",
+      "7p",
+      "8p",
+      "3s",
+      "4s",
+      "4s",
+      "5s",
+      "5s",
+      "6s",
+      "S",
+      "S"
+    ],
+    "riichiRiver": [
+      "8s",
+      "N",
+      "2p",
+      "2s",
+      "2p",
+      "2m",
+      "5p",
+      "2s",
+      "1s",
+      "4p",
+      "9s",
+      "2p",
+      "E",
+      "4m",
+      "2p",
+      "F"
+    ],
+    "riichiTurnIndex": 10,
+    "dora": "1m",
+    "safestDiscard": "1p",
+    "options": [
+      {
+        "tile": "1p",
+        "safety": "relatively_safe",
+        "reason": "筋＋壁"
+      },
+      {
+        "tile": "5m",
+        "safety": "relatively_safe",
+        "reason": "筋"
+      },
+      {
+        "tile": "7m",
+        "safety": "relatively_safe",
+        "reason": "筋"
+      },
+      {
+        "tile": "7p",
+        "safety": "relatively_safe",
+        "reason": "筋"
+      },
+      {
+        "tile": "8p",
+        "safety": "relatively_safe",
+        "reason": "筋"
+      },
+      {
+        "tile": "4s",
+        "safety": "relatively_safe",
+        "reason": "筋"
+      },
+      {
+        "tile": "5s",
+        "safety": "relatively_safe",
+        "reason": "筋"
+      },
+      {
+        "tile": "6s",
+        "safety": "relatively_safe",
+        "reason": "筋"
+      },
+      {
+        "tile": "S",
+        "safety": "dangerous",
+        "reason": "字牌"
+      },
+      {
+        "tile": "3s",
+        "safety": "very_dangerous",
+        "reason": "無筋危険牌"
+      },
+      {
+        "tile": "6m",
+        "safety": "very_dangerous",
+        "reason": "無筋危険牌"
+      }
+    ],
+    "explanation": "1p が最も安全です（筋＋壁）。筋・壁・ワンチャンスを組み合わせて比較する問題です。 リーチ者の河には 8s・N・2p・2s・2m・5p・1s・4p・9s・E・4m・F が見えており、次点の 5m は 筋 止まりです。危険牌は無筋の中張牌を優先して避けましょう。ドラ表示牌は 1m です。",
+    "category": "mixed"
+  },
+  {
+    "id": "defense-L4-0021-0",
+    "difficulty": 4,
+    "turn": 17,
+    "hand": [
+      "3m",
+      "4m",
+      "9m",
+      "1p",
+      "2p",
+      "3p",
+      "5p",
+      "6p",
+      "7p",
+      "4s",
+      "5s",
+      "6s",
+      "S",
+      "S"
+    ],
+    "riichiRiver": [
+      "C",
+      "6m",
+      "W",
+      "4p",
+      "8m",
+      "8m",
+      "8s",
+      "8m",
+      "1s",
+      "F",
+      "5m",
+      "9s",
+      "7s",
+      "F",
+      "8m",
+      "7m",
+      "2m"
+    ],
+    "riichiTurnIndex": 12,
+    "dora": "N",
+    "safestDiscard": "9m",
+    "options": [
+      {
+        "tile": "9m",
+        "safety": "relatively_safe",
+        "reason": "筋＋壁"
+      },
+      {
+        "tile": "1p",
+        "safety": "relatively_safe",
+        "reason": "筋"
+      },
+      {
+        "tile": "3m",
+        "safety": "relatively_safe",
+        "reason": "筋"
+      },
+      {
+        "tile": "4m",
+        "safety": "relatively_safe",
+        "reason": "筋"
+      },
+      {
+        "tile": "7p",
+        "safety": "relatively_safe",
+        "reason": "筋"
+      },
+      {
+        "tile": "4s",
+        "safety": "relatively_safe",
+        "reason": "筋"
+      },
+      {
+        "tile": "5s",
+        "safety": "relatively_safe",
+        "reason": "筋"
+      },
+      {
+        "tile": "6s",
+        "safety": "relatively_safe",
+        "reason": "筋"
+      },
+      {
+        "tile": "S",
+        "safety": "dangerous",
+        "reason": "字牌"
+      },
+      {
+        "tile": "2p",
+        "safety": "dangerous",
+        "reason": "無筋危険牌"
+      },
+      {
+        "tile": "3p",
+        "safety": "very_dangerous",
+        "reason": "無筋危険牌"
+      },
+      {
+        "tile": "5p",
+        "safety": "very_dangerous",
+        "reason": "無筋危険牌"
+      },
+      {
+        "tile": "6p",
+        "safety": "very_dangerous",
+        "reason": "無筋危険牌"
+      }
+    ],
+    "explanation": "9m が最も安全です（筋＋壁）。筋・壁・ワンチャンスを組み合わせて比較する問題です。 リーチ者の河には C・6m・W・4p・8m・8s・1s・F・5m・9s・7s・7m・2m が見えており、次点の 1p は 筋 止まりです。危険牌は無筋の中張牌を優先して避けましょう。ドラ表示牌は N です。",
+    "category": "mixed"
+  },
+  {
+    "id": "defense-L4-0022-0",
+    "difficulty": 4,
+    "turn": 15,
+    "hand": [
+      "4m",
+      "5m",
+      "6m",
+      "2p",
+      "3p",
+      "8p",
+      "5s",
+      "5s",
+      "6s",
+      "6s",
+      "7s",
+      "7s",
+      "S",
+      "S"
+    ],
+    "riichiRiver": [
+      "7p",
+      "7p",
+      "9m",
+      "7p",
+      "9p",
+      "2s",
+      "7p",
+      "1s",
+      "N",
+      "4p",
+      "5p",
+      "1p",
+      "9m",
+      "C",
+      "3m"
+    ],
+    "riichiTurnIndex": 8,
+    "dora": "2m",
+    "safestDiscard": "8p",
+    "options": [
+      {
+        "tile": "8p",
+        "safety": "relatively_safe",
+        "reason": "筋＋壁"
+      },
+      {
+        "tile": "6m",
+        "safety": "relatively_safe",
+        "reason": "筋"
+      },
+      {
+        "tile": "2p",
+        "safety": "relatively_safe",
+        "reason": "筋"
+      },
+      {
+        "tile": "5s",
+        "safety": "relatively_safe",
+        "reason": "筋"
+      },
+      {
+        "tile": "S",
+        "safety": "dangerous",
+        "reason": "字牌"
+      },
+      {
+        "tile": "3p",
+        "safety": "very_dangerous",
+        "reason": "無筋危険牌"
+      },
+      {
+        "tile": "7s",
+        "safety": "very_dangerous",
+        "reason": "無筋危険牌"
+      },
+      {
+        "tile": "4m",
+        "safety": "very_dangerous",
+        "reason": "無筋危険牌"
+      },
+      {
+        "tile": "5m",
+        "safety": "very_dangerous",
+        "reason": "無筋危険牌"
+      },
+      {
+        "tile": "6s",
+        "safety": "very_dangerous",
+        "reason": "無筋危険牌"
+      }
+    ],
+    "explanation": "8p が最も安全です（筋＋壁）。筋・壁・ワンチャンスを組み合わせて比較する問題です。 リーチ者の河には 7p・9m・9p・2s・1s・N・4p・5p・1p・C・3m が見えており、次点の 6m は 筋 止まりです。危険牌は無筋の中張牌を優先して避けましょう。ドラ表示牌は 2m です。",
+    "category": "mixed"
+  },
+  {
+    "id": "defense-L4-0023-0",
+    "difficulty": 4,
+    "turn": 14,
+    "hand": [
+      "4m",
+      "5m",
+      "6m",
+      "2p",
+      "3p",
+      "8p",
+      "1s",
+      "2s",
+      "2s",
+      "3s",
+      "3s",
+      "4s",
+      "N",
+      "N"
+    ],
+    "riichiRiver": [
+      "P",
+      "9p",
+      "7p",
+      "6s",
+      "6s",
+      "7s",
+      "9m",
+      "1m",
+      "5p",
+      "7s",
+      "7p",
+      "7p",
+      "6p",
+      "7p"
+    ],
+    "riichiTurnIndex": 8,
+    "dora": "6p",
+    "safestDiscard": "8p",
+    "options": [
+      {
+        "tile": "8p",
+        "safety": "relatively_safe",
+        "reason": "筋＋壁"
+      },
+      {
+        "tile": "4m",
+        "safety": "relatively_safe",
+        "reason": "筋"
+      },
+      {
+        "tile": "6m",
+        "safety": "relatively_safe",
+        "reason": "筋"
+      },
+      {
+        "tile": "2p",
+        "safety": "relatively_safe",
+        "reason": "筋"
+      },
+      {
+        "tile": "3p",
+        "safety": "relatively_safe",
+        "reason": "筋"
+      },
+      {
+        "tile": "3s",
+        "safety": "relatively_safe",
+        "reason": "筋"
+      },
+      {
+        "tile": "4s",
+        "safety": "relatively_safe",
+        "reason": "筋"
+      },
+      {
+        "tile": "N",
+        "safety": "dangerous",
+        "reason": "字牌"
+      },
+      {
+        "tile": "1s",
+        "safety": "dangerous",
+        "reason": "無筋危険牌"
+      },
+      {
+        "tile": "2s",
+        "safety": "dangerous",
+        "reason": "無筋危険牌"
+      },
+      {
+        "tile": "5m",
+        "safety": "very_dangerous",
+        "reason": "無筋危険牌"
+      }
+    ],
+    "explanation": "8p が最も安全です（筋＋壁）。筋・壁・ワンチャンスを組み合わせて比較する問題です。 リーチ者の河には P・9p・7p・6s・7s・9m・1m・5p・6p が見えており、次点の 4m は 筋 止まりです。危険牌は無筋の中張牌を優先して避けましょう。ドラ表示牌は 6p です。",
+    "category": "mixed"
+  },
+  {
+    "id": "defense-L4-0024-0",
+    "difficulty": 4,
+    "turn": 14,
+    "hand": [
+      "3m",
+      "4m",
+      "5m",
+      "1p",
+      "2p",
+      "3p",
+      "6p",
+      "7p",
+      "8p",
+      "3s",
+      "4s",
+      "9s",
+      "P",
+      "P"
+    ],
+    "riichiRiver": [
+      "2s",
+      "6m",
+      "E",
+      "8s",
+      "2m",
+      "8s",
+      "8s",
+      "9p",
+      "8m",
+      "8s",
+      "2s",
+      "N",
+      "6s",
+      "5p"
+    ],
+    "riichiTurnIndex": 7,
+    "dora": "F",
+    "safestDiscard": "9s",
+    "options": [
+      {
+        "tile": "9s",
+        "safety": "relatively_safe",
+        "reason": "筋＋壁"
+      },
+      {
+        "tile": "3m",
+        "safety": "relatively_safe",
+        "reason": "筋"
+      },
+      {
+        "tile": "5m",
+        "safety": "relatively_safe",
+        "reason": "筋"
+      },
+      {
+        "tile": "2p",
+        "safety": "relatively_safe",
+        "reason": "筋"
+      },
+      {
+        "tile": "6p",
+        "safety": "relatively_safe",
+        "reason": "筋"
+      },
+      {
+        "tile": "8p",
+        "safety": "relatively_safe",
+        "reason": "筋"
+      },
+      {
+        "tile": "3s",
+        "safety": "relatively_safe",
+        "reason": "筋"
+      },
+      {
+        "tile": "P",
+        "safety": "dangerous",
+        "reason": "字牌"
+      },
+      {
+        "tile": "1p",
+        "safety": "dangerous",
+        "reason": "無筋危険牌"
+      },
+      {
+        "tile": "3p",
+        "safety": "very_dangerous",
+        "reason": "無筋危険牌"
+      },
+      {
+        "tile": "7p",
+        "safety": "very_dangerous",
+        "reason": "無筋危険牌"
+      },
+      {
+        "tile": "4m",
+        "safety": "very_dangerous",
+        "reason": "無筋危険牌"
+      },
+      {
+        "tile": "4s",
+        "safety": "very_dangerous",
+        "reason": "無筋危険牌"
+      }
+    ],
+    "explanation": "9s が最も安全です（筋＋壁）。筋・壁・ワンチャンスを組み合わせて比較する問題です。 リーチ者の河には 2s・6m・E・8s・2m・9p・8m・N・6s・5p が見えており、次点の 3m は 筋 止まりです。危険牌は無筋の中張牌を優先して避けましょう。ドラ表示牌は F です。",
+    "category": "mixed"
+  },
+  {
+    "id": "defense-L4-0025-0",
+    "difficulty": 4,
+    "turn": 18,
+    "hand": [
+      "5m",
+      "6m",
+      "7m",
+      "3p",
+      "4p",
+      "5p",
+      "6p",
+      "7p",
+      "8p",
+      "3s",
+      "4s",
+      "9s",
+      "E",
+      "E"
+    ],
+    "riichiRiver": [
+      "9p",
+      "8s",
+      "2p",
+      "N",
+      "F",
+      "4m",
+      "F",
+      "7s",
+      "9p",
+      "8s",
+      "2m",
+      "2m",
+      "1p",
+      "6s",
+      "8s",
+      "8s",
+      "4m",
+      "4m"
+    ],
+    "riichiTurnIndex": 6,
+    "dora": "9p",
+    "safestDiscard": "9s",
+    "options": [
+      {
+        "tile": "9s",
+        "safety": "relatively_safe",
+        "reason": "筋＋壁"
+      },
+      {
+        "tile": "5m",
+        "safety": "relatively_safe",
+        "reason": "筋＋ワンチャンス"
+      },
+      {
+        "tile": "7m",
+        "safety": "relatively_safe",
+        "reason": "筋"
+      },
+      {
+        "tile": "4p",
+        "safety": "relatively_safe",
+        "reason": "筋"
+      },
+      {
+        "tile": "5p",
+        "safety": "relatively_safe",
+        "reason": "筋"
+      },
+      {
+        "tile": "6p",
+        "safety": "relatively_safe",
+        "reason": "筋"
+      },
+      {
+        "tile": "3s",
+        "safety": "relatively_safe",
+        "reason": "筋"
+      },
+      {
+        "tile": "4s",
+        "safety": "relatively_safe",
+        "reason": "筋"
+      },
+      {
+        "tile": "8p",
+        "safety": "moderate",
+        "reason": "ワンチャンス"
+      },
+      {
+        "tile": "E",
+        "safety": "dangerous",
+        "reason": "字牌"
+      },
+      {
+        "tile": "3p",
+        "safety": "very_dangerous",
+        "reason": "無筋危険牌"
+      },
+      {
+        "tile": "7p",
+        "safety": "very_dangerous",
+        "reason": "無筋危険牌"
+      },
+      {
+        "tile": "6m",
+        "safety": "very_dangerous",
+        "reason": "無筋危険牌"
+      }
+    ],
+    "explanation": "9s が最も安全です（筋＋壁）。筋・壁・ワンチャンスを組み合わせて比較する問題です。 リーチ者の河には 9p・8s・2p・N・F・4m・7s・2m・1p・6s が見えており、次点の 5m は 筋＋ワンチャンス 止まりです。危険牌は無筋の中張牌を優先して避けましょう。ドラ表示牌は 9p です。",
+    "category": "mixed"
+  },
+  {
+    "id": "defense-L4-0026-0",
+    "difficulty": 4,
+    "turn": 18,
+    "hand": [
+      "2m",
+      "3m",
+      "8m",
+      "5p",
+      "6p",
+      "7p",
+      "2s",
+      "3s",
+      "3s",
+      "4s",
+      "4s",
+      "5s",
+      "W",
+      "W"
+    ],
+    "riichiRiver": [
+      "5m",
+      "E",
+      "1p",
+      "6s",
+      "7m",
+      "9p",
+      "7m",
+      "4m",
+      "1p",
+      "7m",
+      "7s",
+      "7m",
+      "8s",
+      "2p",
+      "C",
+      "8s",
+      "1s",
+      "N"
+    ],
+    "riichiTurnIndex": 8,
+    "dora": "4p",
+    "safestDiscard": "8m",
+    "options": [
+      {
+        "tile": "8m",
+        "safety": "relatively_safe",
+        "reason": "筋＋壁"
+      },
+      {
+        "tile": "2m",
+        "safety": "relatively_safe",
+        "reason": "筋"
+      },
+      {
+        "tile": "5p",
+        "safety": "relatively_safe",
+        "reason": "筋"
+      },
+      {
+        "tile": "6p",
+        "safety": "relatively_safe",
+        "reason": "筋"
+      },
+      {
+        "tile": "3s",
+        "safety": "relatively_safe",
+        "reason": "筋"
+      },
+      {
+        "tile": "4s",
+        "safety": "relatively_safe",
+        "reason": "筋"
+      },
+      {
+        "tile": "5s",
+        "safety": "relatively_safe",
+        "reason": "筋"
+      },
+      {
+        "tile": "W",
+        "safety": "dangerous",
+        "reason": "字牌"
+      },
+      {
+        "tile": "2s",
+        "safety": "dangerous",
+        "reason": "無筋危険牌"
+      },
+      {
+        "tile": "3m",
+        "safety": "very_dangerous",
+        "reason": "無筋危険牌"
+      },
+      {
+        "tile": "7p",
+        "safety": "very_dangerous",
+        "reason": "無筋危険牌"
+      }
+    ],
+    "explanation": "8m が最も安全です（筋＋壁）。筋・壁・ワンチャンスを組み合わせて比較する問題です。 リーチ者の河には 5m・E・1p・6s・7m・9p・4m・7s・8s・2p・C・1s・N が見えており、次点の 2m は 筋 止まりです。危険牌は無筋の中張牌を優先して避けましょう。ドラ表示牌は 4p です。",
+    "category": "mixed"
+  },
+  {
+    "id": "defense-L4-0027-0",
+    "difficulty": 4,
+    "turn": 12,
+    "hand": [
+      "2m",
+      "3m",
+      "8m",
+      "2p",
+      "3p",
+      "4p",
+      "4p",
+      "5p",
+      "6p",
+      "6s",
+      "7s",
+      "8s",
+      "W",
+      "W"
+    ],
+    "riichiRiver": [
+      "C",
+      "7m",
+      "3s",
+      "7m",
+      "3s",
+      "4s",
+      "9m",
+      "7m",
+      "7p",
+      "5m",
+      "7m",
+      "1m"
+    ],
+    "riichiTurnIndex": 7,
+    "dora": "N",
+    "safestDiscard": "8m",
+    "options": [
+      {
+        "tile": "8m",
+        "safety": "relatively_safe",
+        "reason": "筋＋壁"
+      },
+      {
+        "tile": "2m",
+        "safety": "relatively_safe",
+        "reason": "筋"
+      },
+      {
+        "tile": "4p",
+        "safety": "relatively_safe",
+        "reason": "筋"
+      },
+      {
+        "tile": "6s",
+        "safety": "relatively_safe",
+        "reason": "筋"
+      },
+      {
+        "tile": "7s",
+        "safety": "relatively_safe",
+        "reason": "筋"
+      },
+      {
+        "tile": "W",
+        "safety": "dangerous",
+        "reason": "字牌"
+      },
+      {
+        "tile": "2p",
+        "safety": "dangerous",
+        "reason": "無筋危険牌"
+      },
+      {
+        "tile": "8s",
+        "safety": "dangerous",
+        "reason": "無筋危険牌"
+      },
+      {
+        "tile": "3m",
+        "safety": "very_dangerous",
+        "reason": "無筋危険牌"
+      },
+      {
+        "tile": "3p",
+        "safety": "very_dangerous",
+        "reason": "無筋危険牌"
+      },
+      {
+        "tile": "5p",
+        "safety": "very_dangerous",
+        "reason": "無筋危険牌"
+      },
+      {
+        "tile": "6p",
+        "safety": "very_dangerous",
+        "reason": "無筋危険牌"
+      }
+    ],
+    "explanation": "8m が最も安全です（筋＋壁）。筋・壁・ワンチャンスを組み合わせて比較する問題です。 リーチ者の河には C・7m・3s・4s・9m・7p・5m・1m が見えており、次点の 2m は 筋 止まりです。危険牌は無筋の中張牌を優先して避けましょう。ドラ表示牌は N です。",
+    "category": "mixed"
+  },
+  {
+    "id": "defense-L4-0028-0",
+    "difficulty": 4,
+    "turn": 18,
+    "hand": [
+      "1m",
+      "2m",
+      "3m",
+      "3m",
+      "4m",
+      "5m",
+      "4p",
+      "5p",
+      "6p",
+      "1s",
+      "7s",
+      "8s",
+      "S",
+      "S"
+    ],
+    "riichiRiver": [
+      "4s",
+      "3p",
+      "9m",
+      "5s",
+      "2s",
+      "9m",
+      "W",
+      "3p",
+      "2s",
+      "3s",
+      "5s",
+      "2s",
+      "7p",
+      "9p",
+      "2s",
+      "C",
+      "9s",
+      "1p"
+    ],
+    "riichiTurnIndex": 12,
+    "dora": "7p",
+    "safestDiscard": "1s",
+    "options": [
+      {
+        "tile": "1s",
+        "safety": "relatively_safe",
+        "reason": "筋＋壁"
+      },
+      {
+        "tile": "4p",
+        "safety": "relatively_safe",
+        "reason": "筋"
+      },
+      {
+        "tile": "6p",
+        "safety": "relatively_safe",
+        "reason": "筋"
+      },
+      {
+        "tile": "7s",
+        "safety": "relatively_safe",
+        "reason": "筋"
+      },
+      {
+        "tile": "8s",
+        "safety": "relatively_safe",
+        "reason": "筋"
+      },
+      {
+        "tile": "S",
+        "safety": "dangerous",
+        "reason": "字牌"
+      },
+      {
+        "tile": "1m",
+        "safety": "dangerous",
+        "reason": "無筋危険牌"
+      },
+      {
+        "tile": "2m",
+        "safety": "dangerous",
+        "reason": "無筋危険牌"
+      },
+      {
+        "tile": "3m",
+        "safety": "very_dangerous",
+        "reason": "無筋危険牌"
+      },
+      {
+        "tile": "4m",
+        "safety": "very_dangerous",
+        "reason": "無筋危険牌"
+      },
+      {
+        "tile": "5m",
+        "safety": "very_dangerous",
+        "reason": "無筋危険牌"
+      },
+      {
+        "tile": "5p",
+        "safety": "very_dangerous",
+        "reason": "無筋危険牌"
+      }
+    ],
+    "explanation": "1s が最も安全です（筋＋壁）。筋・壁・ワンチャンスを組み合わせて比較する問題です。 リーチ者の河には 4s・3p・9m・5s・2s・W・3s・7p・9p・C・9s・1p が見えており、次点の 4p は 筋 止まりです。危険牌は無筋の中張牌を優先して避けましょう。ドラ表示牌は 7p です。",
+    "category": "mixed"
+  },
+  {
+    "id": "defense-L4-0029-0",
+    "difficulty": 4,
+    "turn": 13,
+    "hand": [
+      "2m",
+      "7m",
+      "8m",
+      "4p",
+      "5p",
+      "6p",
+      "3s",
+      "4s",
+      "5s",
+      "5s",
+      "6s",
+      "7s",
+      "N",
+      "N"
+    ],
+    "riichiRiver": [
+      "3m",
+      "7p",
+      "3m",
+      "3m",
+      "1s",
+      "3p",
+      "5m",
+      "P",
+      "2p",
+      "S",
+      "7p",
+      "3m",
+      "2s"
+    ],
+    "riichiTurnIndex": 10,
+    "dora": "9s",
+    "safestDiscard": "2m",
+    "options": [
+      {
+        "tile": "2m",
+        "safety": "relatively_safe",
+        "reason": "筋＋壁"
+      },
+      {
+        "tile": "8m",
+        "safety": "relatively_safe",
+        "reason": "筋"
+      },
+      {
+        "tile": "4p",
+        "safety": "relatively_safe",
+        "reason": "筋"
+      },
+      {
+        "tile": "5p",
+        "safety": "relatively_safe",
+        "reason": "筋"
+      },
+      {
+        "tile": "6p",
+        "safety": "relatively_safe",
+        "reason": "筋"
+      },
+      {
+        "tile": "4s",
+        "safety": "relatively_safe",
+        "reason": "筋"
+      },
+      {
+        "tile": "5s",
+        "safety": "relatively_safe",
+        "reason": "筋"
+      },
+      {
+        "tile": "N",
+        "safety": "dangerous",
+        "reason": "字牌"
+      },
+      {
+        "tile": "7m",
+        "safety": "very_dangerous",
+        "reason": "無筋危険牌"
+      },
+      {
+        "tile": "3s",
+        "safety": "very_dangerous",
+        "reason": "無筋危険牌"
+      },
+      {
+        "tile": "7s",
+        "safety": "very_dangerous",
+        "reason": "無筋危険牌"
+      },
+      {
+        "tile": "6s",
+        "safety": "very_dangerous",
+        "reason": "無筋危険牌"
+      }
+    ],
+    "explanation": "2m が最も安全です（筋＋壁）。筋・壁・ワンチャンスを組み合わせて比較する問題です。 リーチ者の河には 3m・7p・1s・3p・5m・P・2p・S・2s が見えており、次点の 8m は 筋 止まりです。危険牌は無筋の中張牌を優先して避けましょう。ドラ表示牌は 9s です。",
+    "category": "mixed"
+  },
+  {
+    "id": "defense-L4-0030-0",
+    "difficulty": 4,
+    "turn": 15,
+    "hand": [
+      "1m",
+      "2m",
+      "3m",
+      "3p",
+      "4p",
+      "9p",
+      "3s",
+      "4s",
+      "5s",
+      "5s",
+      "6s",
+      "7s",
+      "P",
+      "P"
+    ],
+    "riichiRiver": [
+      "9m",
+      "8p",
+      "4m",
+      "6p",
+      "6m",
+      "8p",
+      "E",
+      "8p",
+      "C",
+      "8m",
+      "5m",
+      "8p",
+      "5m",
+      "N",
+      "1s"
+    ],
+    "riichiTurnIndex": 6,
+    "dora": "8m",
+    "safestDiscard": "9p",
+    "options": [
+      {
+        "tile": "9p",
+        "safety": "relatively_safe",
+        "reason": "筋＋壁"
+      },
+      {
+        "tile": "1m",
+        "safety": "relatively_safe",
+        "reason": "筋"
+      },
+      {
+        "tile": "2m",
+        "safety": "relatively_safe",
+        "reason": "筋"
+      },
+      {
+        "tile": "3m",
+        "safety": "relatively_safe",
+        "reason": "筋"
+      },
+      {
+        "tile": "3p",
+        "safety": "relatively_safe",
+        "reason": "筋"
+      },
+      {
+        "tile": "4s",
+        "safety": "relatively_safe",
+        "reason": "筋"
+      },
+      {
+        "tile": "P",
+        "safety": "dangerous",
+        "reason": "字牌"
+      },
+      {
+        "tile": "3s",
+        "safety": "very_dangerous",
+        "reason": "無筋危険牌"
+      },
+      {
+        "tile": "7s",
+        "safety": "very_dangerous",
+        "reason": "無筋危険牌"
+      },
+      {
+        "tile": "4p",
+        "safety": "very_dangerous",
+        "reason": "無筋危険牌"
+      },
+      {
+        "tile": "5s",
+        "safety": "very_dangerous",
+        "reason": "無筋危険牌"
+      },
+      {
+        "tile": "6s",
+        "safety": "very_dangerous",
+        "reason": "無筋危険牌"
+      }
+    ],
+    "explanation": "9p が最も安全です（筋＋壁）。筋・壁・ワンチャンスを組み合わせて比較する問題です。 リーチ者の河には 9m・8p・4m・6p・6m・E・C・8m・5m・N・1s が見えており、次点の 1m は 筋 止まりです。危険牌は無筋の中張牌を優先して避けましょう。ドラ表示牌は 8m です。",
+    "category": "mixed"
+  },
+  {
+    "id": "defense-L4-0031-0",
+    "difficulty": 4,
+    "turn": 17,
+    "hand": [
+      "2m",
+      "3m",
+      "3m",
+      "4m",
+      "4m",
+      "5m",
+      "1p",
+      "7p",
+      "8p",
+      "7s",
+      "8s",
+      "9s",
+      "N",
+      "N"
+    ],
+    "riichiRiver": [
+      "6m",
+      "7m",
+      "2p",
+      "2p",
+      "4p",
+      "3p",
+      "6m",
+      "P",
+      "3s",
+      "S",
+      "6s",
+      "2p",
+      "2s",
+      "4s",
+      "W",
+      "2p",
+      "9m"
+    ],
+    "riichiTurnIndex": 11,
+    "dora": "9m",
+    "safestDiscard": "1p",
+    "options": [
+      {
+        "tile": "1p",
+        "safety": "relatively_safe",
+        "reason": "筋＋壁"
+      },
+      {
+        "tile": "9s",
+        "safety": "relatively_safe",
+        "reason": "筋"
+      },
+      {
+        "tile": "3m",
+        "safety": "relatively_safe",
+        "reason": "筋"
+      },
+      {
+        "tile": "4m",
+        "safety": "relatively_safe",
+        "reason": "筋"
+      },
+      {
+        "tile": "7p",
+        "safety": "relatively_safe",
+        "reason": "筋"
+      },
+      {
+        "tile": "7s",
+        "safety": "relatively_safe",
+        "reason": "筋"
+      },
+      {
+        "tile": "N",
+        "safety": "dangerous",
+        "reason": "字牌"
+      },
+      {
+        "tile": "2m",
+        "safety": "dangerous",
+        "reason": "無筋危険牌"
+      },
+      {
+        "tile": "8p",
+        "safety": "dangerous",
+        "reason": "無筋危険牌"
+      },
+      {
+        "tile": "8s",
+        "safety": "dangerous",
+        "reason": "無筋危険牌"
+      },
+      {
+        "tile": "5m",
+        "safety": "very_dangerous",
+        "reason": "無筋危険牌"
+      }
+    ],
+    "explanation": "1p が最も安全です（筋＋壁）。筋・壁・ワンチャンスを組み合わせて比較する問題です。 リーチ者の河には 6m・7m・2p・4p・3p・P・3s・S・6s・2s・4s・W・9m が見えており、次点の 9s は 筋 止まりです。危険牌は無筋の中張牌を優先して避けましょう。ドラ表示牌は 9m です。",
+    "category": "mixed"
+  },
+  {
+    "id": "defense-L4-0032-0",
+    "difficulty": 4,
+    "turn": 17,
+    "hand": [
+      "2m",
+      "3m",
+      "8m",
+      "7p",
+      "8p",
+      "9p",
+      "3s",
+      "4s",
+      "5s",
+      "6s",
+      "7s",
+      "8s",
+      "P",
+      "P"
+    ],
+    "riichiRiver": [
+      "5p",
+      "7m",
+      "1p",
+      "9s",
+      "7m",
+      "6p",
+      "F",
+      "7m",
+      "9s",
+      "5m",
+      "2s",
+      "7m",
+      "9s",
+      "5p",
+      "6p",
+      "4p",
+      "S"
+    ],
+    "riichiTurnIndex": 4,
+    "dora": "N",
+    "safestDiscard": "8m",
+    "options": [
+      {
+        "tile": "8m",
+        "safety": "relatively_safe",
+        "reason": "筋＋壁"
+      },
+      {
+        "tile": "9p",
+        "safety": "relatively_safe",
+        "reason": "筋"
+      },
+      {
+        "tile": "2m",
+        "safety": "relatively_safe",
+        "reason": "筋"
+      },
+      {
+        "tile": "7p",
+        "safety": "relatively_safe",
+        "reason": "筋"
+      },
+      {
+        "tile": "8p",
+        "safety": "relatively_safe",
+        "reason": "筋"
+      },
+      {
+        "tile": "5s",
+        "safety": "relatively_safe",
+        "reason": "筋"
+      },
+      {
+        "tile": "6s",
+        "safety": "relatively_safe",
+        "reason": "筋"
+      },
+      {
+        "tile": "8s",
+        "safety": "moderate",
+        "reason": "ワンチャンス"
+      },
+      {
+        "tile": "P",
+        "safety": "dangerous",
+        "reason": "字牌"
+      },
+      {
+        "tile": "3m",
+        "safety": "very_dangerous",
+        "reason": "無筋危険牌"
+      },
+      {
+        "tile": "3s",
+        "safety": "very_dangerous",
+        "reason": "無筋危険牌"
+      },
+      {
+        "tile": "7s",
+        "safety": "very_dangerous",
+        "reason": "無筋危険牌"
+      },
+      {
+        "tile": "4s",
+        "safety": "very_dangerous",
+        "reason": "無筋危険牌"
+      }
+    ],
+    "explanation": "8m が最も安全です（筋＋壁）。筋・壁・ワンチャンスを組み合わせて比較する問題です。 リーチ者の河には 5p・7m・1p・9s・6p・F・5m・2s・4p・S が見えており、次点の 9p は 筋 止まりです。危険牌は無筋の中張牌を優先して避けましょう。ドラ表示牌は N です。",
+    "category": "mixed"
+  },
+  {
+    "id": "defense-L4-0033-0",
+    "difficulty": 4,
+    "turn": 18,
+    "hand": [
+      "4m",
+      "5m",
+      "5m",
+      "6m",
+      "6m",
+      "7m",
+      "1p",
+      "2p",
+      "3p",
+      "2s",
+      "7s",
+      "8s",
+      "P",
+      "P"
+    ],
+    "riichiRiver": [
+      "1s",
+      "3m",
+      "3s",
+      "9m",
+      "4p",
+      "7p",
+      "8p",
+      "8p",
+      "3s",
+      "C",
+      "9s",
+      "8m",
+      "3s",
+      "5s",
+      "3s",
+      "3m",
+      "5p",
+      "7p"
+    ],
+    "riichiTurnIndex": 8,
+    "dora": "E",
+    "safestDiscard": "2s",
+    "options": [
+      {
+        "tile": "2s",
+        "safety": "relatively_safe",
+        "reason": "筋＋壁"
+      },
+      {
+        "tile": "1p",
+        "safety": "relatively_safe",
+        "reason": "筋"
+      },
+      {
+        "tile": "5m",
+        "safety": "relatively_safe",
+        "reason": "筋"
+      },
+      {
+        "tile": "6m",
+        "safety": "relatively_safe",
+        "reason": "筋"
+      },
+      {
+        "tile": "2p",
+        "safety": "relatively_safe",
+        "reason": "筋"
+      },
+      {
+        "tile": "8s",
+        "safety": "relatively_safe",
+        "reason": "筋"
+      },
+      {
+        "tile": "P",
+        "safety": "dangerous",
+        "reason": "字牌"
+      },
+      {
+        "tile": "7m",
+        "safety": "very_dangerous",
+        "reason": "無筋危険牌"
+      },
+      {
+        "tile": "3p",
+        "safety": "very_dangerous",
+        "reason": "無筋危険牌"
+      },
+      {
+        "tile": "7s",
+        "safety": "very_dangerous",
+        "reason": "無筋危険牌"
+      },
+      {
+        "tile": "4m",
+        "safety": "very_dangerous",
+        "reason": "無筋危険牌"
+      }
+    ],
+    "explanation": "2s が最も安全です（筋＋壁）。筋・壁・ワンチャンスを組み合わせて比較する問題です。 リーチ者の河には 1s・3m・3s・9m・4p・7p・8p・C・9s・8m・5s・5p が見えており、次点の 1p は 筋 止まりです。危険牌は無筋の中張牌を優先して避けましょう。ドラ表示牌は E です。",
+    "category": "mixed"
+  },
+  {
+    "id": "defense-L4-0034-0",
+    "difficulty": 4,
+    "turn": 16,
+    "hand": [
+      "3m",
+      "4m",
+      "9m",
+      "2p",
+      "3p",
+      "4p",
+      "5p",
+      "6p",
+      "7p",
+      "6s",
+      "7s",
+      "8s",
+      "W",
+      "W"
+    ],
+    "riichiRiver": [
+      "P",
+      "9p",
+      "1m",
+      "6m",
+      "7m",
+      "1p",
+      "E",
+      "8m",
+      "N",
+      "8m",
+      "F",
+      "8m",
+      "S",
+      "8m",
+      "4s",
+      "C"
+    ],
+    "riichiTurnIndex": 12,
+    "dora": "P",
+    "safestDiscard": "9m",
+    "options": [
+      {
+        "tile": "9m",
+        "safety": "relatively_safe",
+        "reason": "筋＋壁"
+      },
+      {
+        "tile": "3m",
+        "safety": "relatively_safe",
+        "reason": "筋"
+      },
+      {
+        "tile": "4m",
+        "safety": "relatively_safe",
+        "reason": "筋"
+      },
+      {
+        "tile": "4p",
+        "safety": "relatively_safe",
+        "reason": "筋"
+      },
+      {
+        "tile": "6p",
+        "safety": "relatively_safe",
+        "reason": "筋"
+      },
+      {
+        "tile": "7s",
+        "safety": "relatively_safe",
+        "reason": "筋"
+      },
+      {
+        "tile": "W",
+        "safety": "dangerous",
+        "reason": "字牌"
+      },
+      {
+        "tile": "2p",
+        "safety": "dangerous",
+        "reason": "無筋危険牌"
+      },
+      {
+        "tile": "8s",
+        "safety": "dangerous",
+        "reason": "無筋危険牌"
+      },
+      {
+        "tile": "3p",
+        "safety": "very_dangerous",
+        "reason": "無筋危険牌"
+      },
+      {
+        "tile": "7p",
+        "safety": "very_dangerous",
+        "reason": "無筋危険牌"
+      },
+      {
+        "tile": "5p",
+        "safety": "very_dangerous",
+        "reason": "無筋危険牌"
+      },
+      {
+        "tile": "6s",
+        "safety": "very_dangerous",
+        "reason": "無筋危険牌"
+      }
+    ],
+    "explanation": "9m が最も安全です（筋＋壁）。筋・壁・ワンチャンスを組み合わせて比較する問題です。 リーチ者の河には P・9p・1m・6m・7m・1p・E・8m・N・F・S・4s・C が見えており、次点の 3m は 筋 止まりです。危険牌は無筋の中張牌を優先して避けましょう。ドラ表示牌は P です。",
+    "category": "mixed"
+  },
+  {
+    "id": "defense-L4-0035-0",
+    "difficulty": 4,
+    "turn": 16,
+    "hand": [
+      "3m",
+      "4m",
+      "5m",
+      "6m",
+      "7m",
+      "8m",
+      "3p",
+      "4p",
+      "9p",
+      "7s",
+      "8s",
+      "9s",
+      "N",
+      "N"
+    ],
+    "riichiRiver": [
+      "9m",
+      "6p",
+      "8p",
+      "5s",
+      "W",
+      "E",
+      "8p",
+      "1p",
+      "8p",
+      "3s",
+      "2m",
+      "5p",
+      "1m",
+      "S",
+      "8p",
+      "3s"
+    ],
+    "riichiTurnIndex": 6,
+    "dora": "2s",
+    "safestDiscard": "9p",
+    "options": [
+      {
+        "tile": "9p",
+        "safety": "relatively_safe",
+        "reason": "筋＋壁"
+      },
+      {
+        "tile": "4m",
+        "safety": "relatively_safe",
+        "reason": "筋"
+      },
+      {
+        "tile": "5m",
+        "safety": "relatively_safe",
+        "reason": "筋"
+      },
+      {
+        "tile": "6m",
+        "safety": "relatively_safe",
+        "reason": "筋"
+      },
+      {
+        "tile": "3p",
+        "safety": "relatively_safe",
+        "reason": "筋"
+      },
+      {
+        "tile": "4p",
+        "safety": "relatively_safe",
+        "reason": "筋"
+      },
+      {
+        "tile": "8s",
+        "safety": "relatively_safe",
+        "reason": "筋"
+      },
+      {
+        "tile": "N",
+        "safety": "dangerous",
+        "reason": "字牌"
+      },
+      {
+        "tile": "9s",
+        "safety": "dangerous",
+        "reason": "無筋危険牌"
+      },
+      {
+        "tile": "8m",
+        "safety": "dangerous",
+        "reason": "無筋危険牌"
+      },
+      {
+        "tile": "3m",
+        "safety": "very_dangerous",
+        "reason": "無筋危険牌"
+      },
+      {
+        "tile": "7m",
+        "safety": "very_dangerous",
+        "reason": "無筋危険牌"
+      },
+      {
+        "tile": "7s",
+        "safety": "very_dangerous",
+        "reason": "無筋危険牌"
+      }
+    ],
+    "explanation": "9p が最も安全です（筋＋壁）。筋・壁・ワンチャンスを組み合わせて比較する問題です。 リーチ者の河には 9m・6p・8p・5s・W・E・1p・3s・2m・5p・1m・S が見えており、次点の 4m は 筋 止まりです。危険牌は無筋の中張牌を優先して避けましょう。ドラ表示牌は 2s です。",
+    "category": "mixed"
+  },
+  {
+    "id": "defense-L4-0036-0",
+    "difficulty": 4,
+    "turn": 15,
+    "hand": [
+      "2m",
+      "3m",
+      "4m",
+      "5m",
+      "6m",
+      "7m",
+      "5p",
+      "6p",
+      "7p",
+      "3s",
+      "4s",
+      "9s",
+      "E",
+      "E"
+    ],
+    "riichiRiver": [
+      "8p",
+      "9m",
+      "8s",
+      "6s",
+      "7s",
+      "1s",
+      "C",
+      "2s",
+      "8s",
+      "1p",
+      "5s",
+      "8s",
+      "5s",
+      "8s",
+      "8m"
+    ],
+    "riichiTurnIndex": 12,
+    "dora": "9p",
+    "safestDiscard": "9s",
+    "options": [
+      {
+        "tile": "9s",
+        "safety": "relatively_safe",
+        "reason": "筋＋壁"
+      },
+      {
+        "tile": "5m",
+        "safety": "relatively_safe",
+        "reason": "筋"
+      },
+      {
+        "tile": "6m",
+        "safety": "relatively_safe",
+        "reason": "筋"
+      },
+      {
+        "tile": "5p",
+        "safety": "relatively_safe",
+        "reason": "筋"
+      },
+      {
+        "tile": "3s",
+        "safety": "relatively_safe",
+        "reason": "筋"
+      },
+      {
+        "tile": "4s",
+        "safety": "relatively_safe",
+        "reason": "筋"
+      },
+      {
+        "tile": "E",
+        "safety": "dangerous",
+        "reason": "字牌"
+      },
+      {
+        "tile": "2m",
+        "safety": "dangerous",
+        "reason": "無筋危険牌"
+      },
+      {
+        "tile": "3m",
+        "safety": "very_dangerous",
+        "reason": "無筋危険牌"
+      },
+      {
+        "tile": "7m",
+        "safety": "very_dangerous",
+        "reason": "無筋危険牌"
+      },
+      {
+        "tile": "7p",
+        "safety": "very_dangerous",
+        "reason": "無筋危険牌"
+      },
+      {
+        "tile": "4m",
+        "safety": "very_dangerous",
+        "reason": "無筋危険牌"
+      },
+      {
+        "tile": "6p",
+        "safety": "very_dangerous",
+        "reason": "無筋危険牌"
+      }
+    ],
+    "explanation": "9s が最も安全です（筋＋壁）。筋・壁・ワンチャンスを組み合わせて比較する問題です。 リーチ者の河には 8p・9m・8s・6s・7s・1s・C・2s・1p・5s・8m が見えており、次点の 5m は 筋 止まりです。危険牌は無筋の中張牌を優先して避けましょう。ドラ表示牌は 9p です。",
+    "category": "mixed"
+  },
+  {
+    "id": "defense-L4-0037-0",
+    "difficulty": 4,
+    "turn": 15,
+    "hand": [
+      "5m",
+      "5m",
+      "6m",
+      "6m",
+      "7m",
+      "7m",
+      "1p",
+      "7p",
+      "8p",
+      "5s",
+      "6s",
+      "7s",
+      "E",
+      "E"
+    ],
+    "riichiRiver": [
+      "3s",
+      "2m",
+      "4s",
+      "4s",
+      "4p",
+      "P",
+      "3p",
+      "2p",
+      "2p",
+      "2p",
+      "9s",
+      "4s",
+      "3p",
+      "2p",
+      "W"
+    ],
+    "riichiTurnIndex": 11,
+    "dora": "9p",
+    "safestDiscard": "1p",
+    "options": [
+      {
+        "tile": "1p",
+        "safety": "relatively_safe",
+        "reason": "筋＋壁"
+      },
+      {
+        "tile": "5m",
+        "safety": "relatively_safe",
+        "reason": "筋"
+      },
+      {
+        "tile": "7p",
+        "safety": "relatively_safe",
+        "reason": "筋"
+      },
+      {
+        "tile": "6s",
+        "safety": "relatively_safe",
+        "reason": "筋"
+      },
+      {
+        "tile": "7s",
+        "safety": "relatively_safe",
+        "reason": "筋"
+      },
+      {
+        "tile": "5s",
+        "safety": "moderate",
+        "reason": "ワンチャンス"
+      },
+      {
+        "tile": "E",
+        "safety": "dangerous",
+        "reason": "字牌"
+      },
+      {
+        "tile": "8p",
+        "safety": "dangerous",
+        "reason": "無筋危険牌"
+      },
+      {
+        "tile": "7m",
+        "safety": "very_dangerous",
+        "reason": "無筋危険牌"
+      },
+      {
+        "tile": "6m",
+        "safety": "very_dangerous",
+        "reason": "無筋危険牌"
+      }
+    ],
+    "explanation": "1p が最も安全です（筋＋壁）。筋・壁・ワンチャンスを組み合わせて比較する問題です。 リーチ者の河には 3s・2m・4s・4p・P・3p・2p・9s・W が見えており、次点の 5m は 筋 止まりです。危険牌は無筋の中張牌を優先して避けましょう。ドラ表示牌は 9p です。",
+    "category": "mixed"
+  },
+  {
+    "id": "defense-L4-0038-0",
+    "difficulty": 4,
+    "turn": 12,
+    "hand": [
+      "2m",
+      "3m",
+      "8m",
+      "1p",
+      "2p",
+      "3p",
+      "4p",
+      "5p",
+      "6p",
+      "3s",
+      "4s",
+      "5s",
+      "W",
+      "W"
+    ],
+    "riichiRiver": [
+      "7p",
+      "P",
+      "7m",
+      "5m",
+      "N",
+      "7m",
+      "7m",
+      "7m",
+      "9p",
+      "1m",
+      "8s",
+      "9m"
+    ],
+    "riichiTurnIndex": 5,
+    "dora": "5m",
+    "safestDiscard": "8m",
+    "options": [
+      {
+        "tile": "8m",
+        "safety": "relatively_safe",
+        "reason": "筋＋壁"
+      },
+      {
+        "tile": "2m",
+        "safety": "relatively_safe",
+        "reason": "筋"
+      },
+      {
+        "tile": "4p",
+        "safety": "relatively_safe",
+        "reason": "筋"
+      },
+      {
+        "tile": "6p",
+        "safety": "relatively_safe",
+        "reason": "筋"
+      },
+      {
+        "tile": "5s",
+        "safety": "relatively_safe",
+        "reason": "筋"
+      },
+      {
+        "tile": "W",
+        "safety": "dangerous",
+        "reason": "字牌"
+      },
+      {
+        "tile": "1p",
+        "safety": "dangerous",
+        "reason": "無筋危険牌"
+      },
+      {
+        "tile": "2p",
+        "safety": "dangerous",
+        "reason": "無筋危険牌"
+      },
+      {
+        "tile": "3m",
+        "safety": "very_dangerous",
+        "reason": "無筋危険牌"
+      },
+      {
+        "tile": "3p",
+        "safety": "very_dangerous",
+        "reason": "無筋危険牌"
+      },
+      {
+        "tile": "3s",
+        "safety": "very_dangerous",
+        "reason": "無筋危険牌"
+      },
+      {
+        "tile": "5p",
+        "safety": "very_dangerous",
+        "reason": "無筋危険牌"
+      },
+      {
+        "tile": "4s",
+        "safety": "very_dangerous",
+        "reason": "無筋危険牌"
+      }
+    ],
+    "explanation": "8m が最も安全です（筋＋壁）。筋・壁・ワンチャンスを組み合わせて比較する問題です。 リーチ者の河には 7p・P・7m・5m・N・9p・1m・8s・9m が見えており、次点の 2m は 筋 止まりです。危険牌は無筋の中張牌を優先して避けましょう。ドラ表示牌は 5m です。",
+    "category": "mixed"
+  },
+  {
+    "id": "defense-L4-0039-0",
+    "difficulty": 4,
+    "turn": 14,
+    "hand": [
+      "2m",
+      "3m",
+      "8m",
+      "4p",
+      "5p",
+      "6p",
+      "6p",
+      "7p",
+      "8p",
+      "1s",
+      "2s",
+      "3s",
+      "S",
+      "S"
+    ],
+    "riichiRiver": [
+      "7m",
+      "8s",
+      "7m",
+      "5s",
+      "7s",
+      "7m",
+      "6m",
+      "5s",
+      "9s",
+      "3p",
+      "W",
+      "7m",
+      "5m",
+      "6m"
+    ],
+    "riichiTurnIndex": 7,
+    "dora": "9s",
+    "safestDiscard": "8m",
+    "options": [
+      {
+        "tile": "8m",
+        "safety": "relatively_safe",
+        "reason": "筋＋壁"
+      },
+      {
+        "tile": "2m",
+        "safety": "relatively_safe",
+        "reason": "筋"
+      },
+      {
+        "tile": "3m",
+        "safety": "relatively_safe",
+        "reason": "筋"
+      },
+      {
+        "tile": "6p",
+        "safety": "relatively_safe",
+        "reason": "筋"
+      },
+      {
+        "tile": "2s",
+        "safety": "relatively_safe",
+        "reason": "筋"
+      },
+      {
+        "tile": "S",
+        "safety": "dangerous",
+        "reason": "字牌"
+      },
+      {
+        "tile": "1s",
+        "safety": "dangerous",
+        "reason": "無筋危険牌"
+      },
+      {
+        "tile": "8p",
+        "safety": "dangerous",
+        "reason": "無筋危険牌"
+      },
+      {
+        "tile": "7p",
+        "safety": "very_dangerous",
+        "reason": "無筋危険牌"
+      },
+      {
+        "tile": "3s",
+        "safety": "very_dangerous",
+        "reason": "無筋危険牌"
+      },
+      {
+        "tile": "4p",
+        "safety": "very_dangerous",
+        "reason": "無筋危険牌"
+      },
+      {
+        "tile": "5p",
+        "safety": "very_dangerous",
+        "reason": "無筋危険牌"
+      }
+    ],
+    "explanation": "8m が最も安全です（筋＋壁）。筋・壁・ワンチャンスを組み合わせて比較する問題です。 リーチ者の河には 7m・8s・5s・7s・6m・9s・3p・W・5m が見えており、次点の 2m は 筋 止まりです。危険牌は無筋の中張牌を優先して避けましょう。ドラ表示牌は 9s です。",
+    "category": "mixed"
+  },
+  {
+    "id": "defense-L4-0040-0",
+    "difficulty": 4,
+    "turn": 18,
+    "hand": [
+      "4m",
+      "5m",
+      "5m",
+      "6m",
+      "6m",
+      "7m",
+      "7p",
+      "8p",
+      "9p",
+      "2s",
+      "7s",
+      "8s",
+      "N",
+      "N"
+    ],
+    "riichiRiver": [
+      "F",
+      "1s",
+      "3s",
+      "5s",
+      "6s",
+      "5p",
+      "3s",
+      "S",
+      "9m",
+      "3s",
+      "2p",
+      "4s",
+      "4p",
+      "P",
+      "3s",
+      "E",
+      "6s",
+      "P"
+    ],
+    "riichiTurnIndex": 5,
+    "dora": "6p",
+    "safestDiscard": "2s",
+    "options": [
+      {
+        "tile": "2s",
+        "safety": "relatively_safe",
+        "reason": "筋＋壁"
+      },
+      {
+        "tile": "6m",
+        "safety": "relatively_safe",
+        "reason": "筋"
+      },
+      {
+        "tile": "7p",
+        "safety": "relatively_safe",
+        "reason": "筋"
+      },
+      {
+        "tile": "8p",
+        "safety": "relatively_safe",
+        "reason": "筋"
+      },
+      {
+        "tile": "7s",
+        "safety": "relatively_safe",
+        "reason": "筋"
+      },
+      {
+        "tile": "8s",
+        "safety": "relatively_safe",
+        "reason": "筋"
+      },
+      {
+        "tile": "N",
+        "safety": "dangerous",
+        "reason": "字牌"
+      },
+      {
+        "tile": "9p",
+        "safety": "dangerous",
+        "reason": "無筋危険牌"
+      },
+      {
+        "tile": "7m",
+        "safety": "very_dangerous",
+        "reason": "無筋危険牌"
+      },
+      {
+        "tile": "4m",
+        "safety": "very_dangerous",
+        "reason": "無筋危険牌"
+      },
+      {
+        "tile": "5m",
+        "safety": "very_dangerous",
+        "reason": "無筋危険牌"
+      }
+    ],
+    "explanation": "2s が最も安全です（筋＋壁）。筋・壁・ワンチャンスを組み合わせて比較する問題です。 リーチ者の河には F・1s・3s・5s・6s・5p・S・9m・2p・4s・4p・P・E が見えており、次点の 6m は 筋 止まりです。危険牌は無筋の中張牌を優先して避けましょう。ドラ表示牌は 6p です。",
+    "category": "mixed"
+  },
+  {
+    "id": "defense-L4-0041-0",
+    "difficulty": 4,
+    "turn": 15,
+    "hand": [
+      "3m",
+      "4m",
+      "5m",
+      "2p",
+      "3p",
+      "8p",
+      "1s",
+      "2s",
+      "3s",
+      "6s",
+      "7s",
+      "8s",
+      "S",
+      "S"
+    ],
+    "riichiRiver": [
+      "8m",
+      "E",
+      "9p",
+      "7m",
+      "N",
+      "7p",
+      "2m",
+      "9p",
+      "7p",
+      "9m",
+      "5p",
+      "9s",
+      "7p",
+      "1p",
+      "7p"
+    ],
+    "riichiTurnIndex": 7,
+    "dora": "5p",
+    "safestDiscard": "8p",
+    "options": [
+      {
+        "tile": "8p",
+        "safety": "relatively_safe",
+        "reason": "筋＋壁"
+      },
+      {
+        "tile": "4m",
+        "safety": "relatively_safe",
+        "reason": "筋"
+      },
+      {
+        "tile": "5m",
+        "safety": "relatively_safe",
+        "reason": "筋"
+      },
+      {
+        "tile": "2p",
+        "safety": "relatively_safe",
+        "reason": "筋"
+      },
+      {
+        "tile": "6s",
+        "safety": "relatively_safe",
+        "reason": "筋"
+      },
+      {
+        "tile": "S",
+        "safety": "dangerous",
+        "reason": "字牌"
+      },
+      {
+        "tile": "1s",
+        "safety": "dangerous",
+        "reason": "無筋危険牌"
+      },
+      {
+        "tile": "2s",
+        "safety": "dangerous",
+        "reason": "無筋危険牌"
+      },
+      {
+        "tile": "8s",
+        "safety": "dangerous",
+        "reason": "無筋危険牌"
+      },
+      {
+        "tile": "3m",
+        "safety": "very_dangerous",
+        "reason": "無筋危険牌"
+      },
+      {
+        "tile": "3p",
+        "safety": "very_dangerous",
+        "reason": "無筋危険牌"
+      },
+      {
+        "tile": "3s",
+        "safety": "very_dangerous",
+        "reason": "無筋危険牌"
+      },
+      {
+        "tile": "7s",
+        "safety": "very_dangerous",
+        "reason": "無筋危険牌"
+      }
+    ],
+    "explanation": "8p が最も安全です（筋＋壁）。筋・壁・ワンチャンスを組み合わせて比較する問題です。 リーチ者の河には 8m・E・9p・7m・N・7p・2m・9m・5p・9s・1p が見えており、次点の 4m は 筋 止まりです。危険牌は無筋の中張牌を優先して避けましょう。ドラ表示牌は 5p です。",
+    "category": "mixed"
+  },
+  {
+    "id": "defense-L4-0042-0",
+    "difficulty": 4,
+    "turn": 12,
+    "hand": [
+      "5m",
+      "6m",
+      "7m",
+      "3p",
+      "4p",
+      "9p",
+      "3s",
+      "4s",
+      "5s",
+      "6s",
+      "7s",
+      "8s",
+      "P",
+      "P"
+    ],
+    "riichiRiver": [
+      "4m",
+      "9s",
+      "8p",
+      "6p",
+      "8p",
+      "N",
+      "8p",
+      "C",
+      "S",
+      "5p",
+      "7p",
+      "8p"
+    ],
+    "riichiTurnIndex": 8,
+    "dora": "5p",
+    "safestDiscard": "9p",
+    "options": [
+      {
+        "tile": "9p",
+        "safety": "relatively_safe",
+        "reason": "筋＋壁"
+      },
+      {
+        "tile": "7m",
+        "safety": "relatively_safe",
+        "reason": "筋"
+      },
+      {
+        "tile": "3p",
+        "safety": "relatively_safe",
+        "reason": "筋"
+      },
+      {
+        "tile": "4p",
+        "safety": "relatively_safe",
+        "reason": "筋"
+      },
+      {
+        "tile": "6s",
+        "safety": "relatively_safe",
+        "reason": "筋"
+      },
+      {
+        "tile": "P",
+        "safety": "dangerous",
+        "reason": "字牌"
+      },
+      {
+        "tile": "8s",
+        "safety": "dangerous",
+        "reason": "無筋危険牌"
+      },
+      {
+        "tile": "3s",
+        "safety": "very_dangerous",
+        "reason": "無筋危険牌"
+      },
+      {
+        "tile": "7s",
+        "safety": "very_dangerous",
+        "reason": "無筋危険牌"
+      },
+      {
+        "tile": "5m",
+        "safety": "very_dangerous",
+        "reason": "無筋危険牌"
+      },
+      {
+        "tile": "6m",
+        "safety": "very_dangerous",
+        "reason": "無筋危険牌"
+      },
+      {
+        "tile": "4s",
+        "safety": "very_dangerous",
+        "reason": "無筋危険牌"
+      },
+      {
+        "tile": "5s",
+        "safety": "very_dangerous",
+        "reason": "無筋危険牌"
+      }
+    ],
+    "explanation": "9p が最も安全です（筋＋壁）。筋・壁・ワンチャンスを組み合わせて比較する問題です。 リーチ者の河には 4m・9s・8p・6p・N・C・S・5p・7p が見えており、次点の 7m は 筋 止まりです。危険牌は無筋の中張牌を優先して避けましょう。ドラ表示牌は 5p です。",
+    "category": "mixed"
+  },
+  {
+    "id": "defense-L4-0043-0",
+    "difficulty": 4,
+    "turn": 14,
+    "hand": [
+      "2m",
+      "3m",
+      "4m",
+      "6m",
+      "7m",
+      "8m",
+      "7p",
+      "8p",
+      "9p",
+      "2s",
+      "3s",
+      "8s",
+      "N",
+      "N"
+    ],
+    "riichiRiver": [
+      "6p",
+      "1s",
+      "7s",
+      "S",
+      "7s",
+      "1s",
+      "1p",
+      "5s",
+      "4p",
+      "C",
+      "1p",
+      "7s",
+      "6s",
+      "7s"
+    ],
+    "riichiTurnIndex": 6,
+    "dora": "4p",
+    "safestDiscard": "8s",
+    "options": [
+      {
+        "tile": "8s",
+        "safety": "relatively_safe",
+        "reason": "筋＋壁"
+      },
+      {
+        "tile": "9p",
+        "safety": "relatively_safe",
+        "reason": "筋"
+      },
+      {
+        "tile": "7p",
+        "safety": "relatively_safe",
+        "reason": "筋"
+      },
+      {
+        "tile": "2s",
+        "safety": "relatively_safe",
+        "reason": "筋"
+      },
+      {
+        "tile": "3s",
+        "safety": "relatively_safe",
+        "reason": "筋"
+      },
+      {
+        "tile": "N",
+        "safety": "dangerous",
+        "reason": "字牌"
+      },
+      {
+        "tile": "2m",
+        "safety": "dangerous",
+        "reason": "無筋危険牌"
+      },
+      {
+        "tile": "8m",
+        "safety": "dangerous",
+        "reason": "無筋危険牌"
+      },
+      {
+        "tile": "8p",
+        "safety": "dangerous",
+        "reason": "無筋危険牌"
+      },
+      {
+        "tile": "3m",
+        "safety": "very_dangerous",
+        "reason": "無筋危険牌"
+      },
+      {
+        "tile": "7m",
+        "safety": "very_dangerous",
+        "reason": "無筋危険牌"
+      },
+      {
+        "tile": "4m",
+        "safety": "very_dangerous",
+        "reason": "無筋危険牌"
+      },
+      {
+        "tile": "6m",
+        "safety": "very_dangerous",
+        "reason": "無筋危険牌"
+      }
+    ],
+    "explanation": "8s が最も安全です（筋＋壁）。筋・壁・ワンチャンスを組み合わせて比較する問題です。 リーチ者の河には 6p・1s・7s・S・1p・5s・4p・C・6s が見えており、次点の 9p は 筋 止まりです。危険牌は無筋の中張牌を優先して避けましょう。ドラ表示牌は 4p です。",
+    "category": "mixed"
+  },
+  {
+    "id": "defense-L4-0044-0",
+    "difficulty": 4,
+    "turn": 16,
+    "hand": [
+      "5m",
+      "6m",
+      "7m",
+      "2p",
+      "3p",
+      "8p",
+      "2s",
+      "3s",
+      "4s",
+      "6s",
+      "7s",
+      "8s",
+      "E",
+      "E"
+    ],
+    "riichiRiver": [
+      "S",
+      "5s",
+      "9p",
+      "5p",
+      "C",
+      "7p",
+      "N",
+      "7p",
+      "8m",
+      "7p",
+      "C",
+      "8m",
+      "9s",
+      "6p",
+      "1p",
+      "7p"
+    ],
+    "riichiTurnIndex": 12,
+    "dora": "F",
+    "safestDiscard": "8p",
+    "options": [
+      {
+        "tile": "8p",
+        "safety": "relatively_safe",
+        "reason": "筋＋壁"
+      },
+      {
+        "tile": "5m",
+        "safety": "relatively_safe",
+        "reason": "筋"
+      },
+      {
+        "tile": "2p",
+        "safety": "relatively_safe",
+        "reason": "筋"
+      },
+      {
+        "tile": "3p",
+        "safety": "relatively_safe",
+        "reason": "筋"
+      },
+      {
+        "tile": "2s",
+        "safety": "relatively_safe",
+        "reason": "筋"
+      },
+      {
+        "tile": "6s",
+        "safety": "relatively_safe",
+        "reason": "筋"
+      },
+      {
+        "tile": "8s",
+        "safety": "relatively_safe",
+        "reason": "筋"
+      },
+      {
+        "tile": "E",
+        "safety": "dangerous",
+        "reason": "字牌"
+      },
+      {
+        "tile": "7m",
+        "safety": "very_dangerous",
+        "reason": "無筋危険牌"
+      },
+      {
+        "tile": "3s",
+        "safety": "very_dangerous",
+        "reason": "無筋危険牌"
+      },
+      {
+        "tile": "7s",
+        "safety": "very_dangerous",
+        "reason": "無筋危険牌"
+      },
+      {
+        "tile": "6m",
+        "safety": "very_dangerous",
+        "reason": "無筋危険牌"
+      },
+      {
+        "tile": "4s",
+        "safety": "very_dangerous",
+        "reason": "無筋危険牌"
+      }
+    ],
+    "explanation": "8p が最も安全です（筋＋壁）。筋・壁・ワンチャンスを組み合わせて比較する問題です。 リーチ者の河には S・5s・9p・5p・C・7p・N・8m・9s・6p・1p が見えており、次点の 5m は 筋 止まりです。危険牌は無筋の中張牌を優先して避けましょう。ドラ表示牌は F です。",
+    "category": "mixed"
+  },
+  {
+    "id": "defense-L4-0045-0",
+    "difficulty": 4,
+    "turn": 14,
+    "hand": [
+      "1m",
+      "2m",
+      "2m",
+      "3m",
+      "3m",
+      "4m",
+      "2p",
+      "3p",
+      "8p",
+      "4s",
+      "5s",
+      "6s",
+      "C",
+      "C"
+    ],
+    "riichiRiver": [
+      "9m",
+      "5p",
+      "4p",
+      "5m",
+      "F",
+      "7m",
+      "3s",
+      "N",
+      "7p",
+      "7p",
+      "2s",
+      "7p",
+      "7p",
+      "9s"
+    ],
+    "riichiTurnIndex": 8,
+    "dora": "F",
+    "safestDiscard": "8p",
+    "options": [
+      {
+        "tile": "8p",
+        "safety": "relatively_safe",
+        "reason": "筋＋壁"
+      },
+      {
+        "tile": "2m",
+        "safety": "relatively_safe",
+        "reason": "筋"
+      },
+      {
+        "tile": "4m",
+        "safety": "relatively_safe",
+        "reason": "筋"
+      },
+      {
+        "tile": "2p",
+        "safety": "relatively_safe",
+        "reason": "筋"
+      },
+      {
+        "tile": "5s",
+        "safety": "relatively_safe",
+        "reason": "筋"
+      },
+      {
+        "tile": "6s",
+        "safety": "relatively_safe",
+        "reason": "筋"
+      },
+      {
+        "tile": "C",
+        "safety": "dangerous",
+        "reason": "字牌"
+      },
+      {
+        "tile": "1m",
+        "safety": "dangerous",
+        "reason": "無筋危険牌"
+      },
+      {
+        "tile": "3m",
+        "safety": "very_dangerous",
+        "reason": "無筋危険牌"
+      },
+      {
+        "tile": "3p",
+        "safety": "very_dangerous",
+        "reason": "無筋危険牌"
+      },
+      {
+        "tile": "4s",
+        "safety": "very_dangerous",
+        "reason": "無筋危険牌"
+      }
+    ],
+    "explanation": "8p が最も安全です（筋＋壁）。筋・壁・ワンチャンスを組み合わせて比較する問題です。 リーチ者の河には 9m・5p・4p・5m・F・7m・3s・N・7p・2s・9s が見えており、次点の 2m は 筋 止まりです。危険牌は無筋の中張牌を優先して避けましょう。ドラ表示牌は F です。",
+    "category": "mixed"
+  },
+  {
+    "id": "defense-L4-0046-0",
+    "difficulty": 4,
+    "turn": 16,
+    "hand": [
+      "1m",
+      "7m",
+      "8m",
+      "4p",
+      "4p",
+      "5p",
+      "5p",
+      "6p",
+      "6p",
+      "5s",
+      "6s",
+      "7s",
+      "C",
+      "C"
+    ],
+    "riichiRiver": [
+      "9p",
+      "2m",
+      "4s",
+      "2p",
+      "2m",
+      "9m",
+      "2m",
+      "2s",
+      "S",
+      "6m",
+      "3p",
+      "2m",
+      "N",
+      "W",
+      "4m",
+      "9s"
+    ],
+    "riichiTurnIndex": 5,
+    "dora": "3p",
+    "safestDiscard": "1m",
+    "options": [
+      {
+        "tile": "1m",
+        "safety": "relatively_safe",
+        "reason": "筋＋壁"
+      },
+      {
+        "tile": "7m",
+        "safety": "relatively_safe",
+        "reason": "筋"
+      },
+      {
+        "tile": "5p",
+        "safety": "relatively_safe",
+        "reason": "筋"
+      },
+      {
+        "tile": "6p",
+        "safety": "relatively_safe",
+        "reason": "筋"
+      },
+      {
+        "tile": "5s",
+        "safety": "relatively_safe",
+        "reason": "筋"
+      },
+      {
+        "tile": "6s",
+        "safety": "relatively_safe",
+        "reason": "筋"
+      },
+      {
+        "tile": "7s",
+        "safety": "relatively_safe",
+        "reason": "筋"
+      },
+      {
+        "tile": "C",
+        "safety": "dangerous",
+        "reason": "字牌"
+      },
+      {
+        "tile": "8m",
+        "safety": "dangerous",
+        "reason": "無筋危険牌"
+      },
+      {
+        "tile": "4p",
+        "safety": "very_dangerous",
+        "reason": "無筋危険牌"
+      }
+    ],
+    "explanation": "1m が最も安全です（筋＋壁）。筋・壁・ワンチャンスを組み合わせて比較する問題です。 リーチ者の河には 9p・2m・4s・2p・9m・2s・S・6m・3p・N・W・4m・9s が見えており、次点の 7m は 筋 止まりです。危険牌は無筋の中張牌を優先して避けましょう。ドラ表示牌は 3p です。",
+    "category": "mixed"
+  },
+  {
+    "id": "defense-L4-0047-0",
+    "difficulty": 4,
+    "turn": 12,
+    "hand": [
+      "1m",
+      "7m",
+      "8m",
+      "4p",
+      "5p",
+      "5p",
+      "6p",
+      "6p",
+      "7p",
+      "6s",
+      "7s",
+      "8s",
+      "W",
+      "W"
+    ],
+    "riichiRiver": [
+      "S",
+      "4s",
+      "5s",
+      "2p",
+      "9s",
+      "3m",
+      "2m",
+      "2m",
+      "6m",
+      "2m",
+      "2m",
+      "4m"
+    ],
+    "riichiTurnIndex": 6,
+    "dora": "N",
+    "safestDiscard": "1m",
+    "options": [
+      {
+        "tile": "1m",
+        "safety": "relatively_safe",
+        "reason": "筋＋壁"
+      },
+      {
+        "tile": "7m",
+        "safety": "relatively_safe",
+        "reason": "筋"
+      },
+      {
+        "tile": "5p",
+        "safety": "relatively_safe",
+        "reason": "筋"
+      },
+      {
+        "tile": "6s",
+        "safety": "relatively_safe",
+        "reason": "筋"
+      },
+      {
+        "tile": "7s",
+        "safety": "relatively_safe",
+        "reason": "筋"
+      },
+      {
+        "tile": "8s",
+        "safety": "relatively_safe",
+        "reason": "筋"
+      },
+      {
+        "tile": "W",
+        "safety": "dangerous",
+        "reason": "字牌"
+      },
+      {
+        "tile": "8m",
+        "safety": "dangerous",
+        "reason": "無筋危険牌"
+      },
+      {
+        "tile": "7p",
+        "safety": "very_dangerous",
+        "reason": "無筋危険牌"
+      },
+      {
+        "tile": "4p",
+        "safety": "very_dangerous",
+        "reason": "無筋危険牌"
+      },
+      {
+        "tile": "6p",
+        "safety": "very_dangerous",
+        "reason": "無筋危険牌"
+      }
+    ],
+    "explanation": "1m が最も安全です（筋＋壁）。筋・壁・ワンチャンスを組み合わせて比較する問題です。 リーチ者の河には S・4s・5s・2p・9s・3m・2m・6m・4m が見えており、次点の 7m は 筋 止まりです。危険牌は無筋の中張牌を優先して避けましょう。ドラ表示牌は N です。",
+    "category": "mixed"
+  },
+  {
+    "id": "defense-L4-0048-0",
+    "difficulty": 4,
+    "turn": 17,
+    "hand": [
+      "3m",
+      "3m",
+      "4m",
+      "4m",
+      "5m",
+      "5m",
+      "4p",
+      "5p",
+      "6p",
+      "3s",
+      "4s",
+      "9s",
+      "P",
+      "P"
+    ],
+    "riichiRiver": [
+      "E",
+      "8s",
+      "8s",
+      "8p",
+      "6s",
+      "5s",
+      "F",
+      "8s",
+      "3p",
+      "1m",
+      "S",
+      "C",
+      "7s",
+      "8s",
+      "2p",
+      "1m",
+      "1s"
+    ],
+    "riichiTurnIndex": 10,
+    "dora": "1p",
+    "safestDiscard": "9s",
+    "options": [
+      {
+        "tile": "9s",
+        "safety": "relatively_safe",
+        "reason": "筋＋壁"
+      },
+      {
+        "tile": "4m",
+        "safety": "relatively_safe",
+        "reason": "筋"
+      },
+      {
+        "tile": "5p",
+        "safety": "relatively_safe",
+        "reason": "筋"
+      },
+      {
+        "tile": "6p",
+        "safety": "relatively_safe",
+        "reason": "筋"
+      },
+      {
+        "tile": "3s",
+        "safety": "relatively_safe",
+        "reason": "筋"
+      },
+      {
+        "tile": "4s",
+        "safety": "relatively_safe",
+        "reason": "筋"
+      },
+      {
+        "tile": "P",
+        "safety": "dangerous",
+        "reason": "字牌"
+      },
+      {
+        "tile": "3m",
+        "safety": "very_dangerous",
+        "reason": "無筋危険牌"
+      },
+      {
+        "tile": "5m",
+        "safety": "very_dangerous",
+        "reason": "無筋危険牌"
+      },
+      {
+        "tile": "4p",
+        "safety": "very_dangerous",
+        "reason": "無筋危険牌"
+      }
+    ],
+    "explanation": "9s が最も安全です（筋＋壁）。筋・壁・ワンチャンスを組み合わせて比較する問題です。 リーチ者の河には E・8s・8p・6s・5s・F・3p・1m・S・C・7s・2p・1s が見えており、次点の 4m は 筋 止まりです。危険牌は無筋の中張牌を優先して避けましょう。ドラ表示牌は 1p です。",
+    "category": "mixed"
+  },
+  {
+    "id": "defense-L4-0049-0",
+    "difficulty": 4,
+    "turn": 18,
+    "hand": [
+      "2m",
+      "7m",
+      "8m",
+      "1p",
+      "2p",
+      "3p",
+      "6p",
+      "7p",
+      "8p",
+      "3s",
+      "4s",
+      "5s",
+      "F",
+      "F"
+    ],
+    "riichiRiver": [
+      "1m",
+      "3m",
+      "9p",
+      "5m",
+      "9p",
+      "1s",
+      "3m",
+      "7s",
+      "8s",
+      "3m",
+      "9m",
+      "E",
+      "6s",
+      "3m",
+      "7s",
+      "W",
+      "C",
+      "9m"
+    ],
+    "riichiTurnIndex": 15,
+    "dora": "W",
+    "safestDiscard": "2m",
+    "options": [
+      {
+        "tile": "2m",
+        "safety": "relatively_safe",
+        "reason": "筋＋壁"
+      },
+      {
+        "tile": "8m",
+        "safety": "relatively_safe",
+        "reason": "筋"
+      },
+      {
+        "tile": "6p",
+        "safety": "relatively_safe",
+        "reason": "筋"
+      },
+      {
+        "tile": "3s",
+        "safety": "relatively_safe",
+        "reason": "筋"
+      },
+      {
+        "tile": "4s",
+        "safety": "relatively_safe",
+        "reason": "筋"
+      },
+      {
+        "tile": "5s",
+        "safety": "relatively_safe",
+        "reason": "筋"
+      },
+      {
+        "tile": "F",
+        "safety": "dangerous",
+        "reason": "字牌"
+      },
+      {
+        "tile": "1p",
+        "safety": "dangerous",
+        "reason": "無筋危険牌"
+      },
+      {
+        "tile": "2p",
+        "safety": "dangerous",
+        "reason": "無筋危険牌"
+      },
+      {
+        "tile": "8p",
+        "safety": "dangerous",
+        "reason": "無筋危険牌"
+      },
+      {
+        "tile": "7m",
+        "safety": "very_dangerous",
+        "reason": "無筋危険牌"
+      },
+      {
+        "tile": "3p",
+        "safety": "very_dangerous",
+        "reason": "無筋危険牌"
+      },
+      {
+        "tile": "7p",
+        "safety": "very_dangerous",
+        "reason": "無筋危険牌"
+      }
+    ],
+    "explanation": "2m が最も安全です（筋＋壁）。筋・壁・ワンチャンスを組み合わせて比較する問題です。 リーチ者の河には 1m・3m・9p・5m・1s・7s・8s・9m・E・6s・W・C が見えており、次点の 8m は 筋 止まりです。危険牌は無筋の中張牌を優先して避けましょう。ドラ表示牌は W です。",
+    "category": "mixed"
+  },
+  {
+    "id": "defense-L4-0050-0",
+    "difficulty": 4,
+    "turn": 17,
+    "hand": [
+      "3m",
+      "4m",
+      "9m",
+      "1p",
+      "2p",
+      "3p",
+      "4p",
+      "5p",
+      "6p",
+      "1s",
+      "2s",
+      "3s",
+      "N",
+      "N"
+    ],
+    "riichiRiver": [
+      "S",
+      "8m",
+      "6m",
+      "8m",
+      "8m",
+      "4s",
+      "W",
+      "1m",
+      "2m",
+      "P",
+      "9p",
+      "8m",
+      "7m",
+      "1m",
+      "7m",
+      "C",
+      "C"
+    ],
+    "riichiTurnIndex": 15,
+    "dora": "9p",
+    "safestDiscard": "9m",
+    "options": [
+      {
+        "tile": "9m",
+        "safety": "relatively_safe",
+        "reason": "筋＋壁"
+      },
+      {
+        "tile": "1s",
+        "safety": "relatively_safe",
+        "reason": "筋"
+      },
+      {
+        "tile": "3m",
+        "safety": "relatively_safe",
+        "reason": "筋"
+      },
+      {
+        "tile": "4m",
+        "safety": "relatively_safe",
+        "reason": "筋"
+      },
+      {
+        "tile": "6p",
+        "safety": "relatively_safe",
+        "reason": "筋"
+      },
+      {
+        "tile": "N",
+        "safety": "dangerous",
+        "reason": "字牌"
+      },
+      {
+        "tile": "1p",
+        "safety": "dangerous",
+        "reason": "無筋危険牌"
+      },
+      {
+        "tile": "2p",
+        "safety": "dangerous",
+        "reason": "無筋危険牌"
+      },
+      {
+        "tile": "2s",
+        "safety": "dangerous",
+        "reason": "無筋危険牌"
+      },
+      {
+        "tile": "3p",
+        "safety": "very_dangerous",
+        "reason": "無筋危険牌"
+      },
+      {
+        "tile": "3s",
+        "safety": "very_dangerous",
+        "reason": "無筋危険牌"
+      },
+      {
+        "tile": "4p",
+        "safety": "very_dangerous",
+        "reason": "無筋危険牌"
+      },
+      {
+        "tile": "5p",
+        "safety": "very_dangerous",
+        "reason": "無筋危険牌"
+      }
+    ],
+    "explanation": "9m が最も安全です（筋＋壁）。筋・壁・ワンチャンスを組み合わせて比較する問題です。 リーチ者の河には S・8m・6m・4s・W・1m・2m・P・9p・7m・C が見えており、次点の 1s は 筋 止まりです。危険牌は無筋の中張牌を優先して避けましょう。ドラ表示牌は 9p です。",
+    "category": "mixed"
+  }
+]

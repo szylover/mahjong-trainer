@@ -22,5 +22,21 @@
     "基本実践"
   ],
   "totalProblems": 3000,
-  "generatedAt": "2026-06-02T07:24:20.488Z"
+  "generatedAt": "2026-06-02T07:24:20.488Z",
+  "defenseLevels": {
+    "1": 100,
+    "2": 150,
+    "3": 200,
+    "4": 50
+  },
+  "defenseCategories": [
+    "genbutsu",
+    "suji",
+    "kabe",
+    "one_chance",
+    "mixed"
+  ],
+  "defenseTotalProblems": 500,
+  "defenseGeneratedAt": "2026-06-02T09:05:59.485Z",
+  "updatedAt": "2026-06-02T09:05:59.485Z"
 }
