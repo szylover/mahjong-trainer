@@ -1,11 +1,11 @@
 import { useCallback, useEffect, useMemo, useState } from 'react'
-import { useNavigate, useParams } from 'react-router-dom'
+import { Navigate, useParams } from 'react-router-dom'
 import { evaluateDrill, generateDrill, recordStats } from '../api'
 import AnalysisPanel from '../components/AnalysisPanel'
 import TileHand from '../components/TileHand'
 import { useTimer } from '../hooks/useTimer'
 import { COUNT_OPTIONS, DIFFICULTY_OPTIONS, MODE_LABEL_MAP, MODE_OPTIONS, RECOMMENDED_MODE } from '../types'
-import type { DrillEvaluationResponse, DrillGenerateResponse, DrillProblem, ModeKey } from '../types'
+import type { DrillEvaluationResponse, DrillProblem, ModeKey } from '../types'
 
 function isModeKey(value: string | undefined): value is ModeKey {
   return MODE_OPTIONS.some((item) => item.key === value)
@@ -13,8 +13,15 @@ function isModeKey(value: string | undefined): value is ModeKey {
 
 export default function DrillPage() {
   const { mode } = useParams()
-  const navigate = useNavigate()
-  const modeKey = isModeKey(mode) ? mode : RECOMMENDED_MODE
+
+  if (!isModeKey(mode)) {
+    return <Navigate to={`/drill/${RECOMMENDED_MODE}`} replace />
+  }
+
+  return <DrillPageInner modeKey={mode} />
+}
+
+function DrillPageInner({ modeKey }: { modeKey: ModeKey }) {
   const [difficulty, setDifficulty] = useState(2)
   const [count, setCount] = useState(10)
   const [problems, setProblems] = useState<DrillProblem[]>([])
@@ -29,56 +36,31 @@ export default function DrillPage() {
   const modeLabel = MODE_LABEL_MAP[modeKey]
   const currentProblem = problems[currentIndex]
 
-  const fetchProblems = useCallback(
-    (nextMode: ModeKey, nextDifficulty: number, nextCount: number): Promise<DrillGenerateResponse> =>
-      generateDrill({ mode: nextMode, difficulty: nextDifficulty, count: nextCount }),
-    [],
-  )
-
   useEffect(() => {
-    if (!isModeKey(mode)) {
-      navigate(`/drill/${RECOMMENDED_MODE}`, { replace: true })
-    }
-  }, [mode, navigate])
-
-  useEffect(() => {
-    let active = true
-    const loadingTimer = window.setTimeout(() => {
-      if (active) {
-        setLoading(true)
-      }
-    }, 0)
-
+    let cancelled = false
+    setLoading(true)
+    setError(null)
     reset()
 
-    void fetchProblems(modeKey, difficulty, count)
+    generateDrill({ mode: modeKey, difficulty, count })
       .then((response) => {
-        if (!active) {
-          return
-        }
+        if (cancelled) return
         setProblems(response.problems)
         setCurrentIndex(0)
         setSelectedIndex(null)
         setResult(null)
-        setError(null)
+        setLoading(false)
         start()
       })
       .catch((err) => {
-        if (active) {
-          setError(err instanceof Error ? err.message : '加载题库失败，请刷新页面')
-        }
-      })
-      .finally(() => {
-        if (active) {
-          setLoading(false)
-        }
+        if (cancelled) return
+        setError(err instanceof Error ? err.message : '加载题库失败，请刷新页面')
+        setLoading(false)
       })
 
-    return () => {
-      active = false
-      window.clearTimeout(loadingTimer)
-    }
-  }, [count, difficulty, fetchProblems, modeKey, reset, start])
+    return () => { cancelled = true }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [count, difficulty, modeKey])
 
   const handleSelect = useCallback(
     async (index: number, tile: string) => {
@@ -114,15 +96,16 @@ export default function DrillPage() {
     if (currentIndex >= problems.length - 1) {
       setLoading(true)
       reset()
-      void fetchProblems(modeKey, difficulty, count)
+      generateDrill({ mode: modeKey, difficulty, count })
         .then((response) => {
           setProblems(response.problems)
           setCurrentIndex(0)
           setSelectedIndex(null)
           setResult(null)
+          setLoading(false)
           start()
         })
-        .finally(() => setLoading(false))
+        .catch(() => setLoading(false))
       return
     }
 
@@ -130,7 +113,7 @@ export default function DrillPage() {
     setResult(null)
     setCurrentIndex((value) => value + 1)
     start()
-  }, [count, currentIndex, difficulty, fetchProblems, modeKey, problems.length, reset, start])
+  }, [count, currentIndex, difficulty, modeKey, problems.length, reset, start])
 
   const promptText = useMemo(() => currentProblem?.prompt ?? '点击要打出的牌', [currentProblem])
 
