@@ -28,9 +28,6 @@ export default function MahjongTile({
   small = false,
   disabled = false,
 }: TileProps) {
-  const width = small ? 30 : 42
-  const height = small ? 42 : 58
-
   return (
     <button
       type="button"
@@ -49,8 +46,6 @@ export default function MahjongTile({
       <img
         src={`/tiles/${tile}.svg`}
         alt={getTileName(tile)}
-        width={width}
-        height={height}
         draggable={false}
       />
     </button>

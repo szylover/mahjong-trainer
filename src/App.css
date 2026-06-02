@@ -214,8 +214,8 @@
 }
 
 .hand-stage {
-  min-height: 220px;
-  padding: 28px 18px;
+  min-height: 120px;
+  padding: 20px 12px;
   border-radius: 20px;
   background: rgba(11, 19, 39, 0.82);
   border: 1px solid rgba(130, 152, 202, 0.16);
@@ -238,8 +238,7 @@
   display: flex;
   flex-wrap: nowrap;
   justify-content: center;
-  gap: 4px;
-  overflow-x: auto;
+  gap: 2px;
 }
 
 .mahjong-tile {
@@ -249,6 +248,9 @@
   background: transparent;
   transition: transform 0.18s ease, filter 0.18s ease;
   border-radius: 6px;
+  flex: 1 1 0;
+  max-width: 60px;
+  min-width: 0;
 }
 
 .mahjong-tile:not(:disabled) {
@@ -275,17 +277,22 @@
 
 .mahjong-tile img {
   display: block;
-  border-radius: 6px;
+  border-radius: 5px;
   pointer-events: none;
   background: #f0ede4;
-  border: 2px solid #d4cfc2;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.3), inset 0 1px 0 rgba(255,255,255,0.6);
-  padding: 4px 2px;
+  border: 1.5px solid #d4cfc2;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.25);
+  padding: 3px 1px;
+  width: 100%;
+  height: auto;
+}
+
+.mahjong-tile--small {
+  max-width: 36px;
 }
 
 .mahjong-tile--small img {
-  width: 36px;
-  height: 50px;
+  padding: 2px 1px;
 }
 
 .drill-controls {
