@@ -11,6 +11,20 @@ function isModeKey(value: string | undefined): value is ModeKey {
   return MODE_OPTIONS.some((item) => item.key === value)
 }
 
+const TILE_ORDER: Record<string, number> = {}
+const suits = ['m', 'p', 's']
+suits.forEach((suit, si) => {
+  for (let n = 1; n <= 9; n++) {
+    TILE_ORDER[`${n}${suit}`] = si * 10 + n
+  }
+})
+const honors = ['E', 'S', 'W', 'N', 'P', 'F', 'C']
+honors.forEach((h, i) => { TILE_ORDER[h] = 30 + i })
+
+function sortHand(hand: string[]): string[] {
+  return [...hand].sort((a, b) => (TILE_ORDER[a] ?? 99) - (TILE_ORDER[b] ?? 99))
+}
+
 export default function DrillPage() {
   const { mode } = useParams()
 
@@ -31,10 +45,17 @@ function DrillPageInner({ modeKey }: { modeKey: ModeKey }) {
   const [loading, setLoading] = useState(true)
   const [error, setError] = useState<string | null>(null)
   const [evaluating, setEvaluating] = useState(false)
+  const [sorted, setSorted] = useState(true)
   const { elapsedSeconds, start, stop, reset } = useTimer()
 
   const modeLabel = MODE_LABEL_MAP[modeKey]
   const currentProblem = problems[currentIndex]
+
+  const displayHand = useMemo(() => {
+    if (!currentProblem) return []
+    if (!sorted) return currentProblem.hand
+    return sortHand(currentProblem.hand)
+  }, [currentProblem, sorted])
 
   useEffect(() => {
     let cancelled = false
@@ -129,6 +150,14 @@ function DrillPageInner({ modeKey }: { modeKey: ModeKey }) {
               </p>
             </div>
             <div className="timer-pill">⏱️ {elapsedSeconds.toFixed(1)}s</div>
+            <button
+              type="button"
+              className={`chip-button ${sorted ? 'is-active' : ''}`}
+              onClick={() => setSorted((v) => !v)}
+              title={sorted ? '显示原始顺序' : '理牌排序'}
+            >
+              {sorted ? '🔤 已理牌' : '🔀 未理牌'}
+            </button>
           </div>
 
           <div className="hand-stage">
@@ -137,7 +166,7 @@ function DrillPageInner({ modeKey }: { modeKey: ModeKey }) {
             ) : (
               <>
                 <TileHand
-                  tiles={currentProblem.hand}
+                    tiles={displayHand}
                   selectedIndex={selectedIndex}
                   disabled={Boolean(result) || evaluating}
                   onSelect={handleSelect}

@@ -200,9 +200,10 @@
 .drill-header {
   display: flex;
   justify-content: space-between;
-  gap: 16px;
-  align-items: flex-start;
+  gap: 12px;
+  align-items: center;
   margin-bottom: 20px;
+  flex-wrap: wrap;
 }
 
 .timer-pill {
