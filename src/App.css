@@ -3,7 +3,7 @@
 }
 
 .app-main {
-  width: min(1200px, calc(100% - 32px));
+  width: min(1400px, calc(100% - 32px));
   margin: 0 auto;
   padding: 24px 0 48px;
 }
@@ -190,6 +190,13 @@
   overflow: hidden;
 }
 
+.drill-layout {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+  align-items: start;
+}
+
 .drill-header {
   display: flex;
   justify-content: space-between;
@@ -312,18 +319,18 @@
 }
 
 .analysis-panel {
-  transform: translateY(20px);
   opacity: 0;
   pointer-events: none;
-  transition: transform 0.28s ease, opacity 0.28s ease;
+  transition: opacity 0.28s ease;
   background: rgba(12, 20, 41, 0.95);
   border: 1px solid rgba(125, 211, 252, 0.16);
   border-radius: 24px;
   padding: 22px;
+  position: sticky;
+  top: 80px;
 }
 
 .analysis-panel.is-open {
-  transform: translateY(0);
   opacity: 1;
   pointer-events: auto;
 }
@@ -506,6 +513,10 @@
 }
 
 @media (max-width: 900px) {
+  .drill-layout {
+    grid-template-columns: 1fr;
+  }
+
   .hero-card,
   .drill-header,
   .charts-grid,

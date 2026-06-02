@@ -136,74 +136,76 @@ export default function DrillPage() {
 
   return (
     <div className="page drill-page">
-      <section className="panel-card drill-panel">
-        <div className="drill-header">
-          <div>
-            <h1>{modeLabel}</h1>
-            <p>
-              模式：{modeLabel} | 难度：L{difficulty} | 题 {Math.min(currentIndex + 1, Math.max(problems.length, 1))}/{Math.max(problems.length, count)}
-            </p>
+      <div className="drill-layout">
+        <section className="panel-card drill-panel">
+          <div className="drill-header">
+            <div>
+              <h1>{modeLabel}</h1>
+              <p>
+                模式：{modeLabel} | 难度：L{difficulty} | 题 {Math.min(currentIndex + 1, Math.max(problems.length, 1))}/{Math.max(problems.length, count)}
+              </p>
+            </div>
+            <div className="timer-pill">⏱️ {elapsedSeconds.toFixed(1)}s</div>
           </div>
-          <div className="timer-pill">⏱️ {elapsedSeconds.toFixed(1)}s</div>
-        </div>
 
-        <div className="hand-stage">
-          {loading || !currentProblem ? (
-            <div className="loading-box">{error ? `❌ ${error}` : '正在加载题库...'}</div>
-          ) : (
-            <>
-              <TileHand
-                tiles={currentProblem.hand}
-                selectedIndex={selectedIndex}
-                disabled={Boolean(result) || evaluating}
-                onSelect={handleSelect}
-              />
-              <p className="stage-hint">{evaluating ? '正在分析答案...' : promptText}</p>
-            </>
-          )}
-        </div>
+          <div className="hand-stage">
+            {loading || !currentProblem ? (
+              <div className="loading-box">{error ? `❌ ${error}` : '正在加载题库...'}</div>
+            ) : (
+              <>
+                <TileHand
+                  tiles={currentProblem.hand}
+                  selectedIndex={selectedIndex}
+                  disabled={Boolean(result) || evaluating}
+                  onSelect={handleSelect}
+                />
+                <p className="stage-hint">{evaluating ? '正在分析答案...' : promptText}</p>
+              </>
+            )}
+          </div>
 
-        <div className="drill-controls">
-          <div className="control-group">
-            <span className="control-label">难度选择：</span>
-            <div className="chip-row">
-              {DIFFICULTY_OPTIONS.map((level) => (
-                <button
-                  key={level}
-                  type="button"
-                  className={`chip-button ${difficulty === level ? 'is-active' : ''}`}
-                  onClick={() => {
-                    setLoading(true)
-                    setDifficulty(level)
-                  }}
-                >
-                  L{level}
-                </button>
-              ))}
+          <div className="drill-controls">
+            <div className="control-group">
+              <span className="control-label">难度选择：</span>
+              <div className="chip-row">
+                {DIFFICULTY_OPTIONS.map((level) => (
+                  <button
+                    key={level}
+                    type="button"
+                    className={`chip-button ${difficulty === level ? 'is-active' : ''}`}
+                    onClick={() => {
+                      setLoading(true)
+                      setDifficulty(level)
+                    }}
+                  >
+                    L{level}
+                  </button>
+                ))}
+              </div>
+            </div>
+            <div className="control-group">
+              <span className="control-label">题数：</span>
+              <div className="chip-row">
+                {COUNT_OPTIONS.map((item) => (
+                  <button
+                    key={item}
+                    type="button"
+                    className={`chip-button ${count === item ? 'is-active' : ''}`}
+                    onClick={() => {
+                      setLoading(true)
+                      setCount(item)
+                    }}
+                  >
+                    {item}
+                  </button>
+                ))}
+              </div>
             </div>
           </div>
-          <div className="control-group">
-            <span className="control-label">题数：</span>
-            <div className="chip-row">
-              {COUNT_OPTIONS.map((item) => (
-                <button
-                  key={item}
-                  type="button"
-                  className={`chip-button ${count === item ? 'is-active' : ''}`}
-                  onClick={() => {
-                    setLoading(true)
-                    setCount(item)
-                  }}
-                >
-                  {item}
-                </button>
-              ))}
-            </div>
-          </div>
-        </div>
-      </section>
+        </section>
 
-      <AnalysisPanel open={Boolean(result)} result={result} onNext={handleNext} isLast={currentIndex >= problems.length - 1} />
+        <AnalysisPanel open={Boolean(result)} result={result} onNext={handleNext} isLast={currentIndex >= problems.length - 1} />
+      </div>
     </div>
   )
 }
