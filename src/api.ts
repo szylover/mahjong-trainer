@@ -31,7 +31,7 @@ interface Problem {
   hand: TileCode[]
   bestDiscard: string
   options: ProblemOption[]
-  explanation: string
+  explanation: ExplanationSections | string
   tags: string[]
 }
 
@@ -55,7 +55,11 @@ function pickRandom<T>(arr: T[], count: number): T[] {
   return shuffled.slice(0, count)
 }
 
-function parseExplanation(text: string): ExplanationSections {
+function parseExplanation(raw: unknown): ExplanationSections {
+  if (typeof raw === 'object' && raw !== null && 'handStructure' in raw) {
+    return raw as ExplanationSections
+  }
+  const text = String(raw ?? '')
   const lines = text.split('\n').filter(Boolean)
   return {
     handStructure: lines[0] ?? '',
