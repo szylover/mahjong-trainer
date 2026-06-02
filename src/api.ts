@@ -41,9 +41,11 @@ async function loadProblems(difficulty: number): Promise<Problem[]> {
   const cached = problemCache.get(difficulty)
   if (cached) return cached
 
-  const resp = await fetch(`/data/problems-L${difficulty}.json`)
-  if (!resp.ok) throw new Error(`Failed to load problems for L${difficulty}`)
-  const problems = (await resp.json()) as Problem[]
+  const resp = await fetch(`/data/problems-L${difficulty}.json?v=${Date.now()}`)
+  if (!resp.ok) throw new Error(`Failed to load L${difficulty} problems (${resp.status})`)
+  const text = await resp.text()
+  if (text.startsWith('<!')) throw new Error('Got HTML instead of JSON — clear browser cache and reload')
+  const problems = JSON.parse(text) as Problem[]
   problemCache.set(difficulty, problems)
   return problems
 }

@@ -22,6 +22,7 @@ export default function DrillPage() {
   const [selectedIndex, setSelectedIndex] = useState<number | null>(null)
   const [result, setResult] = useState<DrillEvaluationResponse | null>(null)
   const [loading, setLoading] = useState(true)
+  const [error, setError] = useState<string | null>(null)
   const [evaluating, setEvaluating] = useState(false)
   const { elapsedSeconds, start, stop, reset } = useTimer()
 
@@ -59,7 +60,13 @@ export default function DrillPage() {
         setCurrentIndex(0)
         setSelectedIndex(null)
         setResult(null)
+        setError(null)
         start()
+      })
+      .catch((err) => {
+        if (active) {
+          setError(err instanceof Error ? err.message : '加载题库失败，请刷新页面')
+        }
       })
       .finally(() => {
         if (active) {
@@ -142,7 +149,7 @@ export default function DrillPage() {
 
         <div className="hand-stage">
           {loading || !currentProblem ? (
-            <div className="loading-box">正在生成题目...</div>
+            <div className="loading-box">{error ? `❌ ${error}` : '正在加载题库...'}</div>
           ) : (
             <>
               <TileHand
