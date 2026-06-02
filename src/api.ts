@@ -1,5 +1,7 @@
 import type {
   DailyStat,
+  DefenseEvaluationResponse,
+  DefenseProblem,
   DrillEvaluateRequest,
   DrillEvaluationResponse,
   DrillGenerateRequest,
@@ -53,6 +55,21 @@ async function loadProblems(difficulty: number): Promise<Problem[]> {
 function pickRandom<T>(arr: T[], count: number): T[] {
   const shuffled = [...arr].sort(() => Math.random() - 0.5)
   return shuffled.slice(0, count)
+}
+
+const defenseCache = new Map<number, DefenseProblem[]>()
+
+async function loadDefenseProblems(difficulty: number): Promise<DefenseProblem[]> {
+  const cached = defenseCache.get(difficulty)
+  if (cached) return cached
+
+  const resp = await fetch(`/data/defense-problems-L${difficulty}.json?v=${Date.now()}`)
+  if (!resp.ok) throw new Error(`Failed to load defense L${difficulty} (${resp.status})`)
+  const text = await resp.text()
+  if (text.startsWith('<!')) throw new Error('Got HTML instead of JSON — clear browser cache and reload')
+  const problems = JSON.parse(text) as DefenseProblem[]
+  defenseCache.set(difficulty, problems)
+  return problems
 }
 
 function parseExplanation(raw: unknown): ExplanationSections {
@@ -196,6 +213,44 @@ export async function evaluateDrill(payload: DrillEvaluateRequest): Promise<Dril
       usefulTiles: best?.usefulTiles ?? [],
     },
     explanation: parseExplanation(matched.explanation),
+  }
+}
+
+/* ── Defense API ── */
+
+export async function generateDefenseDrill(difficulty: number, count: number): Promise<DefenseProblem[]> {
+  const problems = await loadDefenseProblems(difficulty)
+  return pickRandom(problems, count)
+}
+
+export async function evaluateDefense(hand: TileCode[], _riichiRiver: TileCode[], discard: TileCode): Promise<DefenseEvaluationResponse> {
+  const handKey = [...hand].sort().join(',')
+  let matched: DefenseProblem | undefined
+
+  for (const [, problems] of defenseCache) {
+    matched = problems.find((p) => [...p.hand].sort().join(',') === handKey)
+    if (matched) break
+  }
+
+  if (!matched) {
+    for (const lvl of [1, 2, 3, 4]) {
+      const problems = await loadDefenseProblems(lvl)
+      matched = problems.find((p) => [...p.hand].sort().join(',') === handKey)
+      if (matched) break
+    }
+  }
+
+  if (!matched) throw new Error('Defense problem not found')
+
+  const userOption = matched.options.find((o) => o.tile === discard)
+
+  return {
+    correct: discard === matched.safestDiscard,
+    safestTile: matched.safestDiscard,
+    userTile: discard,
+    userSafety: userOption?.safety ?? 'unknown',
+    options: matched.options,
+    explanation: matched.explanation,
   }
 }
 

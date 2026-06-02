@@ -11,6 +11,7 @@ const PROMPTS: Record<ModeKey, string> = {
   shape: '这题需要兼顾受入与好形率。',
   sim: '按实战感觉作答，但最优解仍以牌效为准。',
   speed: '快速选择最优切牌，稳定命中牌效答案。',
+  defense: '选择最安全的牌打出。',
 }
 
 interface RankedOption extends DiscardAnalysisOption {

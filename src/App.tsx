@@ -2,6 +2,7 @@ import { Navigate, Route, Routes } from 'react-router-dom'
 import NavBar from './components/NavBar'
 import HomePage from './pages/HomePage'
 import DrillPage from './pages/DrillPage'
+import DefensePage from './pages/DefensePage'
 import StatsPage from './pages/StatsPage'
 import { RECOMMENDED_MODE } from './types'
 import './App.css'
@@ -26,6 +27,7 @@ export default function App() {
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/drill/:mode" element={<DrillPage />} />
+          <Route path="/defense" element={<DefensePage />} />
           <Route path="/stats" element={<StatsPage />} />
           <Route path="/settings" element={<SettingsPage />} />
           <Route path="*" element={<Navigate to={`/drill/${RECOMMENDED_MODE}`} replace />} />

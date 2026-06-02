@@ -1,6 +1,6 @@
 export type TileCode = string
 
-export type ModeKey = 'shanten' | 'ukeire' | 'shape' | 'sim' | 'speed'
+export type ModeKey = 'shanten' | 'ukeire' | 'shape' | 'sim' | 'speed' | 'defense'
 
 export interface ModeOption {
   key: ModeKey
@@ -97,6 +97,35 @@ export interface WeaknessResponse {
   weaknesses: WeaknessItem[]
 }
 
+export interface DefenseProblem {
+  id: string
+  difficulty: number
+  turn: number
+  hand: TileCode[]
+  riichiRiver: TileCode[]
+  riichiTurnIndex: number
+  dora: TileCode
+  safestDiscard: TileCode
+  options: DefenseOption[]
+  explanation: string
+  category: string
+}
+
+export interface DefenseOption {
+  tile: TileCode
+  safety: 'safe' | 'relatively_safe' | 'moderate' | 'dangerous' | 'very_dangerous'
+  reason: string
+}
+
+export interface DefenseEvaluationResponse {
+  correct: boolean
+  safestTile: TileCode
+  userTile: TileCode
+  userSafety: string
+  options: DefenseOption[]
+  explanation: string
+}
+
 export interface RecordStatsRequest {
   mode: ModeKey
   difficulty: number
@@ -112,6 +141,7 @@ export const MODE_OPTIONS: ModeOption[] = [
   { key: 'shanten', label: '向听速算', subtitle: '快速判断向听与改良路线' },
   { key: 'ukeire', label: '受入訓練', subtitle: '比较打牌后的有效牌数量', recommended: true },
   { key: 'shape', label: '好形判断', subtitle: '兼顾受入与好形率的平衡' },
+  { key: 'defense', label: '防守訓練', subtitle: '立直后的安全牌判断（現物・筋・壁）' },
   { key: 'sim', label: '実戦模擬', subtitle: '贴近实战的单巡选择题' },
   { key: 'speed', label: '限時挑戦', subtitle: '在压力下稳定做出最优切牌' },
 ]
