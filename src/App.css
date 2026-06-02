@@ -236,9 +236,10 @@
 
 .tile-hand {
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   justify-content: center;
   gap: 4px;
+  overflow-x: auto;
 }
 
 .mahjong-tile {
@@ -274,8 +275,12 @@
 
 .mahjong-tile img {
   display: block;
-  border-radius: 4px;
+  border-radius: 6px;
   pointer-events: none;
+  background: #f0ede4;
+  border: 2px solid #d4cfc2;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.3), inset 0 1px 0 rgba(255,255,255,0.6);
+  padding: 4px 2px;
 }
 
 .mahjong-tile--small img {

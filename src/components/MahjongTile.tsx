@@ -28,8 +28,8 @@ export default function MahjongTile({
   small = false,
   disabled = false,
 }: TileProps) {
-  const width = small ? 36 : 50
-  const height = small ? 50 : 70
+  const width = small ? 30 : 42
+  const height = small ? 42 : 58
 
   return (
     <button
