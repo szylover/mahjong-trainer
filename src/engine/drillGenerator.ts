@@ -172,7 +172,7 @@ function matchesDifficulty(difficulty: number, options: RankedOption[]) {
 }
 
 function generateSingleProblem(mode: ModeKey, difficulty: number, index: number): DrillProblem {
-  for (let attempt = 0; attempt < 100; attempt += 1) {
+  for (let attempt = 0; attempt < 30; attempt += 1) {
     const hand = shuffle(ALL_TILES).slice(0, 14)
     const options = buildRankedOptions(hand)
 

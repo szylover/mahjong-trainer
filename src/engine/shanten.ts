@@ -20,6 +20,13 @@ function calculateStandardShanten(baseCounts: number[]): number {
   }
 
   function dfs(index: number, mentsu: number, taatsu: number, pair: number) {
+    // Pruning: even if all remaining blocks are melds, can't beat current best
+    const maxRemaining = 4 - mentsu
+    if (8 - (mentsu + maxRemaining) * 2 >= minShanten) {
+      updateMinimum(mentsu, taatsu, pair)
+      return
+    }
+
     while (index < counts.length && counts[index] === 0) {
       index += 1
     }
