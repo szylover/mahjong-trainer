@@ -28,6 +28,10 @@ function sortHand(hand: string[]): string[] {
 export default function DrillPage() {
   const { mode } = useParams()
 
+  if (mode === 'defense') {
+    return <Navigate to="/defense" replace />
+  }
+
   if (!isModeKey(mode)) {
     return <Navigate to={`/drill/${RECOMMENDED_MODE}`} replace />
   }

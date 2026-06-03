@@ -56,7 +56,7 @@ export default function HomePage() {
         </div>
         <div className="mode-grid">
           {MODE_OPTIONS.map((mode) => (
-            <Link key={mode.key} to={`/drill/${mode.key}`} className="mode-card">
+            <Link key={mode.key} to={mode.key === 'defense' ? '/defense' : `/drill/${mode.key}`} className="mode-card">
               <div className="mode-card-header">
                 <h3>{mode.label}</h3>
                 {mode.recommended ? <span className="badge">推荐</span> : null}
