@@ -39,7 +39,7 @@ export default function HomePage() {
       <section className="hero-card panel-card">
         <div>
           <span className="eyebrow">Mahjong Tile Efficiency Trainer</span>
-          <h1>🀄 麻将牌効訓練器</h1>
+          <h1>🀄 麻将牌效训练器</h1>
           <p className="hero-copy">专注牌效、受入与好形判断，帮助你把每一次切牌变成稳定优势。</p>
         </div>
         <Link to={`/drill/${RECOMMENDED_MODE}`} className="primary-button quick-start-button">

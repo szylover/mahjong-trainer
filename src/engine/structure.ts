@@ -96,7 +96,7 @@ export function analyzeHandStructure(hand13: string[]): HandStructure {
     while (count >= 2) {
       working[index] -= 2
       count -= 2
-      taatsu.push({ type: 'pair', tiles: [TILES[index], TILES[index]], description: `${TILES[index]}対子` })
+      taatsu.push({ type: 'pair', tiles: [TILES[index], TILES[index]], description: `${TILES[index]}对子` })
     }
   })
 

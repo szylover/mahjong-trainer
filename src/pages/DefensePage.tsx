@@ -8,10 +8,10 @@ import type { DefenseEvaluationResponse, DefenseProblem } from '../types'
 
 const SAFETY_LABELS: Record<string, { label: string; color: string }> = {
   safe: { label: '安全', color: '#22c55e' },
-  relatively_safe: { label: '比較安全', color: '#86efac' },
+  relatively_safe: { label: '比较安全', color: '#86efac' },
   moderate: { label: '微妙', color: '#facc15' },
-  dangerous: { label: '危険', color: '#f97316' },
-  very_dangerous: { label: '非常危険', color: '#ef4444' },
+  dangerous: { label: '危险', color: '#f97316' },
+  very_dangerous: { label: '非常危险', color: '#ef4444' },
 }
 
 const TILE_ORDER: Record<string, number> = {}
@@ -131,7 +131,7 @@ export default function DefensePage() {
         <section className="panel-card drill-panel">
           <div className="drill-header">
             <div>
-              <h1>防守訓練</h1>
+              <h1>防守训练</h1>
               <p>
                 难度：L{difficulty} | 题 {Math.min(currentIndex + 1, Math.max(problems.length, 1))}/{Math.max(problems.length, count)}
               </p>
@@ -153,7 +153,7 @@ export default function DefensePage() {
               {/* Riichi river */}
               <div className="defense-info">
                 <div className="defense-river-header">
-                  <span>🔴 対面立直 · 第{currentProblem.turn}巡 · ドラ </span>
+                  <span>🔴 对面立直 · 第{currentProblem.turn}巡 · 宝牌 </span>
                   <MahjongTile tile={currentProblem.dora} small disabled />
                 </div>
                 <div className="defense-river">
@@ -230,7 +230,7 @@ export default function DefensePage() {
               </div>
 
               <div className="analysis-section">
-                <h3>🛡️ 安全度一覧</h3>
+                <h3>🛡️ 安全度一览</h3>
                 <div className="defense-options">
                   {result.options.map((opt) => (
                     <div

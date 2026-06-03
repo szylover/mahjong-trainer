@@ -26,7 +26,7 @@ export default function NavBar() {
     <header className="nav-bar">
       <NavLink to="/" className="brand-link">
         <span className="brand-mark">🀄</span>
-        <span>牌効訓練器</span>
+        <span>牌效训练器</span>
       </NavLink>
 
       <nav className="nav-links" aria-label="主导航">
@@ -36,7 +36,7 @@ export default function NavBar() {
             onClick={() => setOpen((v) => !v)}
             aria-expanded={open}
           >
-            訓練 ▾
+            训练 ▾
           </button>
           {open && (
             <div className="nav-dropdown-menu">
@@ -54,8 +54,8 @@ export default function NavBar() {
           )}
         </div>
 
-        <NavLink to="/stats" className={({ isActive }) => `nav-link ${isActive ? 'is-active' : ''}`}>統計</NavLink>
-        <NavLink to="/settings" className={({ isActive }) => `nav-link ${isActive ? 'is-active' : ''}`}>設定</NavLink>
+        <NavLink to="/stats" className={({ isActive }) => `nav-link ${isActive ? 'is-active' : ''}`}>统计</NavLink>
+        <NavLink to="/settings" className={({ isActive }) => `nav-link ${isActive ? 'is-active' : ''}`}>设置</NavLink>
       </nav>
     </header>
   )

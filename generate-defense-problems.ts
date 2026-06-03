@@ -172,12 +172,12 @@ function chooseReason(flags: {
 }) {
   if (flags.genbutsu) return '現物'
   if (flags.kabe && flags.suji) return '筋＋壁'
-  if (flags.suji && flags.oneChance) return '筋＋ワンチャンス'
+  if (flags.suji && flags.oneChance) return '筋＋ONE CHANCE'
   if (flags.kabe) return '壁'
   if (flags.suji) return '筋'
-  if (flags.oneChance) return 'ワンチャンス'
+  if (flags.oneChance) return 'ONE CHANCE'
   if (flags.honor) return '字牌'
-  return '無筋危険牌'
+  return '无筋危险牌'
 }
 
 function evaluateTile(tile: TileCode, hand: TileCode[], river: TileCode[], dora: TileCode): EvaluatedOption {
@@ -571,9 +571,9 @@ function isScenarioValid(
         return best.reason.includes('壁') && !reasons.includes('現物') && hasDanger
       }
       if (category === 'one_chance') {
-        return best.reason.includes('ワンチャンス') && !reasons.includes('現物') && hasDanger
+        return best.reason.includes('ONE CHANCE') && !reasons.includes('現物') && hasDanger
       }
-      return (best.reason.includes('＋') || best.reason.includes('壁') || best.reason.includes('ワンチャンス')) && hasDanger
+      return (best.reason.includes('＋') || best.reason.includes('壁') || best.reason.includes('ONE CHANCE')) && hasDanger
     case 4:
       return best.reason.includes('＋') && options.some((option) => option.tile !== best.tile && option.safety === 'relatively_safe') && hasDanger
     default:
@@ -591,14 +591,14 @@ function buildExplanation(problem: {
   const [best, second] = problem.options
   const riverTiles = [...new Set(problem.river)].join('・')
   const categoryText: Record<DefenseCategory, string> = {
-    genbutsu: '現物を最優先で選ぶ基本形です。',
-    suji: '現物がなく、筋読みで守る問題です。',
-    kabe: '見えている枚数から壁を読む問題です。',
-    one_chance: 'ワンチャンスを使って危険度を下げる問題です。',
-    mixed: '筋・壁・ワンチャンスを組み合わせて比較する問題です。',
+    genbutsu: '这是优先选择现物的基础题型。',
+    suji: '没有现物，需要通过筋读来防守的题型。',
+    kabe: '通过已见牌的枚数判断壁的题型。',
+    one_chance: '利用ONE CHANCE来降低危险度的题型。',
+    mixed: '综合比较筋、壁、ONE CHANCE的复合题型。',
   }
 
-  return `${problem.safestDiscard} が最も安全です（${best.reason}）。${categoryText[problem.category]} リーチ者の河には ${riverTiles} が見えており、次点の ${second.tile} は ${second.reason} 止まりです。危険牌は無筋の中張牌を優先して避けましょう。ドラ表示牌は ${problem.dora} です。`
+  return `${problem.safestDiscard} 是最安全的选择（${best.reason}）。${categoryText[problem.category]} 立直者的牌河中有 ${riverTiles}，次选 ${second.tile} 仅为 ${second.reason}。危险牌应优先避开无筋的中张牌。宝牌指示牌为 ${problem.dora}。`
 }
 
 function createProblem(difficulty: number, index: number, category: DefenseCategory): DefenseProblem {

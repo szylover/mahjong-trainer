@@ -133,7 +133,7 @@ function classifyTags(hand: string[], best: RankedOption, second: RankedOption |
     tags.push('字牌処理')
   }
   if (ukeireGap > 0 && ukeireGap <= 8) {
-    tags.push('受入比較')
+    tags.push('受入比较')
   }
   if (qualityGap >= 10 || (best.quality ?? 0) >= 60) {
     tags.push('好形判断')
@@ -217,7 +217,7 @@ function generateSingleProblem(mode: ModeKey, difficulty: number, index: number)
   const fallbackBest = fallbackOptions[0]
   const hand13 = fallbackBest ? removeTile(fallbackHand, fallbackBest.discard) : fallbackHand.slice(0, 13)
   const structure = analyzeHandStructure(hand13)
-  const tags = fallbackBest ? classifyTags(fallbackHand, fallbackBest, fallbackOptions[1]) : ['受入比較']
+  const tags = fallbackBest ? classifyTags(fallbackHand, fallbackBest, fallbackOptions[1]) : ['受入比较']
 
   return {
     id: `${mode}-${difficulty}-${index}-fallback-${Date.now()}`,

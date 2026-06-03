@@ -139,11 +139,11 @@ export interface RecordStatsRequest {
 
 export const MODE_OPTIONS: ModeOption[] = [
   { key: 'shanten', label: '向听速算', subtitle: '快速判断向听与改良路线' },
-  { key: 'ukeire', label: '受入訓練', subtitle: '比较打牌后的有效牌数量', recommended: true },
+  { key: 'ukeire', label: '受入训练', subtitle: '比较打牌后的有效牌数量', recommended: true },
   { key: 'shape', label: '好形判断', subtitle: '兼顾受入与好形率的平衡' },
-  { key: 'defense', label: '防守訓練', subtitle: '立直后的安全牌判断（現物・筋・壁）' },
-  { key: 'sim', label: '実戦模擬', subtitle: '贴近实战的单巡选择题' },
-  { key: 'speed', label: '限時挑戦', subtitle: '在压力下稳定做出最优切牌' },
+  { key: 'defense', label: '防守训练', subtitle: '立直后的安全牌判断（现物·筋·壁）' },
+  { key: 'sim', label: '实战模拟', subtitle: '贴近实战的单巡选择题' },
+  { key: 'speed', label: '限时挑战', subtitle: '在压力下稳定做出最优切牌' },
 ]
 
 export const DIFFICULTY_OPTIONS = [1, 2, 3, 4] as const
