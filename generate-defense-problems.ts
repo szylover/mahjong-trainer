@@ -45,17 +45,17 @@ const ALL_UNIQUE_TILES = [...NUMBER_TILES, ...HONORS]
 const TILE_ORDER = new Map(ALL_UNIQUE_TILES.map((tile, index) => [tile, index]))
 
 const LEVEL_COUNTS: Record<number, number> = {
-  1: 100,
-  2: 150,
-  3: 200,
-  4: 50,
+  1: 500,
+  2: 800,
+  3: 1200,
+  4: 500,
 }
 
 const LEVEL_CATEGORIES: Record<number, DefenseCategory[]> = {
-  1: Array(100).fill('genbutsu'),
-  2: [...Array(80).fill('genbutsu'), ...Array(70).fill('suji')],
-  3: [...Array(90).fill('kabe'), ...Array(70).fill('one_chance'), ...Array(40).fill('mixed')],
-  4: Array(50).fill('mixed'),
+  1: Array(500).fill('genbutsu'),
+  2: [...Array(400).fill('genbutsu'), ...Array(400).fill('suji')],
+  3: [...Array(500).fill('kabe'), ...Array(400).fill('one_chance'), ...Array(300).fill('mixed')],
+  4: Array(500).fill('mixed'),
 }
 
 function shuffle<T>(items: readonly T[]): T[] {
