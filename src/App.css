@@ -69,6 +69,67 @@
   transform: translateY(-1px);
 }
 
+/* Dropdown menu */
+.nav-dropdown {
+  position: relative;
+}
+
+.nav-dropdown-trigger {
+  border: none;
+  cursor: pointer;
+  font-size: inherit;
+  font-family: inherit;
+}
+
+.nav-dropdown-menu {
+  position: absolute;
+  top: calc(100% + 6px);
+  left: 50%;
+  transform: translateX(-50%);
+  background: #1e293b;
+  border: 1px solid rgba(255,255,255,0.12);
+  border-radius: 12px;
+  box-shadow: 0 8px 32px rgba(0,0,0,0.5);
+  padding: 6px;
+  min-width: 220px;
+  z-index: 100;
+  animation: dropIn 0.15s ease;
+}
+
+@keyframes dropIn {
+  from { opacity: 0; transform: translateX(-50%) translateY(-6px); }
+  to   { opacity: 1; transform: translateX(-50%) translateY(0); }
+}
+
+.nav-dropdown-item {
+  display: flex;
+  flex-direction: column;
+  padding: 10px 14px;
+  border-radius: 8px;
+  color: #d8e5ff;
+  text-decoration: none;
+  transition: background 0.15s;
+}
+
+.nav-dropdown-item:hover {
+  background: rgba(125, 211, 252, 0.15);
+}
+
+.nav-dropdown-item.active {
+  background: rgba(125, 211, 252, 0.22);
+}
+
+.dropdown-item-label {
+  font-weight: 600;
+  font-size: 0.95rem;
+}
+
+.dropdown-item-sub {
+  font-size: 0.75rem;
+  color: #94a3b8;
+  margin-top: 2px;
+}
+
 .hero-card {
   display: flex;
   align-items: center;
