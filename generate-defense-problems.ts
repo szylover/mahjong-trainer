@@ -28,6 +28,7 @@ interface DefenseProblem {
 
 interface EvaluatedOption extends DefenseOption {
   score: number
+  baseReason: string
 }
 
 interface ScenarioBuild {
@@ -170,7 +171,7 @@ function chooseReason(flags: {
   oneChance: boolean
   honor: boolean
 }) {
-  if (flags.genbutsu) return '現物'
+  if (flags.genbutsu) return '现物'
   if (flags.kabe && flags.suji) return '筋＋壁'
   if (flags.suji && flags.oneChance) return '筋＋ONE CHANCE'
   if (flags.kabe) return '壁'
@@ -178,6 +179,48 @@ function chooseReason(flags: {
   if (flags.oneChance) return 'ONE CHANCE'
   if (flags.honor) return '字牌'
   return '无筋危险牌'
+}
+
+function tileSourceBreakdown(target: TileCode, hand: TileCode[], river: TileCode[], dora: TileCode): string {
+  const inHand = hand.filter((t) => t === target).length
+  const inRiver = river.filter((t) => t === target).length
+  const isDora = dora === target ? 1 : 0
+  const total = inHand + inRiver + isDora
+  const parts: string[] = []
+  if (inHand > 0) parts.push(`手牌${inHand}`)
+  if (inRiver > 0) parts.push(`牌河${inRiver}`)
+  if (isDora > 0) parts.push(`宝牌指示1`)
+  return `${target}${parts.join('+')}=${total}枚`
+}
+
+function buildDetailedReason(
+  tile: TileCode,
+  flags: { genbutsu: boolean; suji: boolean; kabe: boolean; oneChance: boolean; honor: boolean },
+  hand: TileCode[],
+  river: TileCode[],
+  dora: TileCode,
+): string {
+  const baseLabel = chooseReason(flags)
+  const details: string[] = []
+
+  if (flags.suji) {
+    const anchors = sujiAnchors(tile).filter((a) => river.includes(a))
+    if (anchors.length > 0) details.push(`筋:牌河有${anchors.join(',')}`)
+  }
+
+  if (flags.kabe || flags.oneChance) {
+    const adj = adjacentTiles(tile)
+    const counts = visibleCounts(hand, river, dora)
+    for (const neighbor of adj) {
+      const c = counts[neighbor]
+      if (c >= 3) {
+        details.push(tileSourceBreakdown(neighbor, hand, river, dora))
+      }
+    }
+  }
+
+  if (details.length > 0) return `${baseLabel}（${details.join('; ')}）`
+  return baseLabel
 }
 
 function evaluateTile(tile: TileCode, hand: TileCode[], river: TileCode[], dora: TileCode): EvaluatedOption {
@@ -190,7 +233,8 @@ function evaluateTile(tile: TileCode, hand: TileCode[], river: TileCode[], dora:
       tile,
       score: 100,
       safety: 'safe',
-      reason: '現物',
+      reason: '现物',
+      baseReason: '现物',
     }
   }
 
@@ -201,6 +245,7 @@ function evaluateTile(tile: TileCode, hand: TileCode[], river: TileCode[], dora:
       score,
       safety: labelFromScore(score),
       reason: '字牌',
+      baseReason: '字牌',
     }
   }
 
@@ -228,19 +273,16 @@ function evaluateTile(tile: TileCode, hand: TileCode[], river: TileCode[], dora:
     score = Math.max(score, 86)
   }
 
-  const reason = chooseReason({
-    genbutsu: false,
-    suji,
-    kabe,
-    oneChance,
-    honor: false,
-  })
+  const flags = { genbutsu: false, suji, kabe, oneChance, honor: false }
+  const baseReason = chooseReason(flags)
+  const reason = buildDetailedReason(tile, flags, hand, river, dora)
 
   return {
     tile,
     score,
     safety: labelFromScore(score),
     reason,
+    baseReason,
   }
 }
 
@@ -555,27 +597,27 @@ function isScenarioValid(
   if (best.tile !== intendedBest) return false
   if (best.score <= second.score) return false
 
-  const reasons = options.map((option) => option.reason)
+  const baseReasons = options.map((option) => option.baseReason)
   const hasDanger = options.some((option) => option.safety === 'dangerous' || option.safety === 'very_dangerous')
 
   switch (difficulty) {
     case 1:
-      return best.reason === '現物' && hasDanger
+      return best.baseReason === '现物' && hasDanger
     case 2:
       if (category === 'genbutsu') {
-        return best.reason === '現物' && reasons.includes('筋') && hasDanger
+        return best.baseReason === '现物' && baseReasons.includes('筋') && hasDanger
       }
-      return best.reason === '筋' && !reasons.includes('現物') && hasDanger
+      return best.baseReason === '筋' && !baseReasons.includes('现物') && hasDanger
     case 3:
       if (category === 'kabe') {
-        return best.reason.includes('壁') && !reasons.includes('現物') && hasDanger
+        return best.baseReason.includes('壁') && !baseReasons.includes('现物') && hasDanger
       }
       if (category === 'one_chance') {
-        return best.reason.includes('ONE CHANCE') && !reasons.includes('現物') && hasDanger
+        return best.baseReason.includes('ONE CHANCE') && !baseReasons.includes('现物') && hasDanger
       }
-      return (best.reason.includes('＋') || best.reason.includes('壁') || best.reason.includes('ONE CHANCE')) && hasDanger
+      return (best.baseReason.includes('＋') || best.baseReason.includes('壁') || best.baseReason.includes('ONE CHANCE')) && hasDanger
     case 4:
-      return best.reason.includes('＋') && options.some((option) => option.tile !== best.tile && option.safety === 'relatively_safe') && hasDanger
+      return best.baseReason.includes('＋') && options.some((option) => option.tile !== best.tile && option.safety === 'relatively_safe') && hasDanger
     default:
       return false
   }
